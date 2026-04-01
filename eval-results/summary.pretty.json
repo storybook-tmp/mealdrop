@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "project": {
+    "name": "mealdrop",
+    "repo": "https://github.com/storybook-tmp/mealdrop",
+    "branch": "main",
+    "githubSlug": "storybook-tmp/mealdrop"
+  },
+  "variant": {
+    "agent": "codex",
+    "model": "gpt-5.4",
+    "effort": "low"
+  },
+  "prompt": "setup",
+  "timestamp": "2026-04-01T14:01:54.885Z",
+  "baselineCommit": "580a92f6a36a6cf97466d07b3d1c83ecfa62f68d",
+  "execution": {
+    "cost": 0,
+    "duration": 0,
+    "turns": 0
+  },
+  "grade": {
+    "buildSuccess": true,
+    "typeCheckErrors": 0,
+    "fileChanges": [],
+    "storybookChanges": []
+  },
+  "score": {
+    "score": 1,
+    "breakdown": {
+      "build": 1,
+      "typecheck": 1,
+      "ghostStories": 1,
+      "performance": 1
+    }
+  },
+  "publish": {
+    "branch": "trial/e2e-publish-2026-04-01T14-01-44-ae07",
+    "labels": [],
+    "summaryUrl": "",
+    "transcriptUrl": "",
+    "screenshots": []
+  }
+}

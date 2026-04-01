@@ -1,0 +1,1 @@
+Smoke test prompt for publishTrialBranch
