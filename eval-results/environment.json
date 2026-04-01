@@ -1,0 +1,5 @@
+{
+  "nodeVersion": "v22.21.1",
+  "evalBranch": "kasper/eval-worktrees-chromatic-pr",
+  "evalCommit": "b157f85d64d500dbee36f0a6ed777d88b2467788"
+}

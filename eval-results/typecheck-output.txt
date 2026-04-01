@@ -1,0 +1,5 @@
+src/components/Header/Header.stories.tsx(32,9): error TS2322: Type 'string' is not assignable to type 'number'.
+src/components/ShoppingCartMenu/ShoppingCartMenu.stories.tsx(30,9): error TS2322: Type 'string' is not assignable to type 'number'.
+src/components/ShoppingCartMenu/ShoppingCartMenu.stories.tsx(38,9): error TS2322: Type 'string' is not assignable to type 'number'.
+src/components/ShoppingCartMenu/ShoppingCartMenu.stories.tsx(58,9): error TS2322: Type 'string' is not assignable to type 'number'.
+

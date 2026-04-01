@@ -1,0 +1,26 @@
+RUN  v4.0.15 /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-01T15-38-59-mealdrop-claude-haiku-4.5-setup-81f8d794/project
+
+10:43:49 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+ ✓ |storybook (chromium)| src/components/Modal/Modal.stories.tsx (2 tests) 1557ms
+   ✓ Default  1349ms
+ ✓ |storybook (chromium)| src/components/Badge/Badge.stories.ts (3 tests) 1771ms
+   ✓ Default  1357ms
+ ✓ |storybook (chromium)| src/components/Header/Header.stories.tsx (3 tests) 1849ms
+   ✓ Default  1533ms
+ ✓ |storybook (chromium)| src/components/RestaurantCard/RestaurantCard.stories.tsx (4 tests) 2084ms
+   ✓ Default  1501ms
+ ✓ |storybook (chromium)| src/components/Review/Review.stories.ts (5 tests) 2085ms
+   ✓ No Reviews  1291ms
+ ✓ |storybook (chromium)| src/components/Button/Button.stories.ts (5 tests) 2083ms
+   ✓ Default  1349ms
+ ✓ |storybook (chromium)| src/components/ShoppingCartMenu/ShoppingCartMenu.stories.tsx (3 tests) 2112ms
+   ✓ Empty  1490ms
+   ✓ With Items  466ms
+ ✓ |storybook (chromium)| src/components/Sidebar/Sidebar.stories.tsx (3 tests) 2214ms
+   ✓ Default  1451ms
+   ✓ Open  547ms
+
+ Test Files  8 passed (8)
+      Tests  28 passed (28)
+   Start at  22:43:49
+   Duration  5.86s (transform 0ms, setup 11.18s, import 1.21s, tests 15.75s, environment 0ms)

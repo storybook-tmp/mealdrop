@@ -1,23 +1,293 @@
 {
-  "empty": true,
+  "schemaVersion": 2,
   "project": {
-    "name": "mealdrop"
+    "name": "mealdrop",
+    "repo": "https://github.com/storybook-tmp/mealdrop",
+    "branch": "main",
+    "githubSlug": "storybook-tmp/mealdrop",
+    "description": "Styled components, Redux, React Router"
   },
-  "prompt": "",
   "variant": {
-    "agent": "",
-    "model": "",
-    "effort": ""
+    "agent": "claude",
+    "model": "haiku-4.5",
+    "effort": "low"
   },
-  "score": {
-    "score": 0
+  "timestamp": "2026-04-01T15:38:59.409Z",
+  "prompt": "setup",
+  "baselineCommit": "9d60003637afda49925a2633acc0dbbcb6c5d575",
+  "execution": {
+    "duration": 259.016,
+    "turns": 0
   },
   "grade": {
-    "buildSuccess": false,
-    "typeCheckErrors": 0,
-    "fileChanges": []
+    "buildSuccess": true,
+    "typeCheckErrors": 4,
+    "typeCheckOutput": "src/components/Header/Header.stories.tsx(32,9): error TS2322: Type 'string' is not assignable to type 'number'.\nsrc/components/ShoppingCartMenu/ShoppingCartMenu.stories.tsx(30,9): error TS2322: Type 'string' is not assignable to type 'number'.\nsrc/components/ShoppingCartMenu/ShoppingCartMenu.stories.tsx(38,9): error TS2322: Type 'string' is not assignable to type 'number'.\nsrc/components/ShoppingCartMenu/ShoppingCartMenu.stories.tsx(58,9): error TS2322: Type 'string' is not assignable to type 'number'.\n\n",
+    "fileChanges": [
+      {
+        "path": ".storybook/preview.ts",
+        "gitStatus": "D"
+      },
+      {
+        "path": ".storybook/preview.tsx",
+        "gitStatus": "A"
+      },
+      {
+        "path": "eval-results/environment.json",
+        "gitStatus": "A"
+      },
+      {
+        "path": "eval-results/prompt.md",
+        "gitStatus": "A"
+      },
+      {
+        "path": "eval-results/transcript.json",
+        "gitStatus": "M"
+      },
+      {
+        "path": "src/components/Badge/Badge.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Button/Button.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Header/Header.stories.tsx",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Modal/Modal.stories.tsx",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/RestaurantCard/RestaurantCard.stories.tsx",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Review/Review.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/ShoppingCartMenu/ShoppingCartMenu.stories.tsx",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Sidebar/Sidebar.stories.tsx",
+        "gitStatus": "A"
+      }
+    ],
+    "storybookChanges": [
+      {
+        "path": ".storybook/preview.ts",
+        "gitStatus": "D"
+      },
+      {
+        "path": ".storybook/preview.tsx",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Badge/Badge.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Button/Button.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Header/Header.stories.tsx",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Modal/Modal.stories.tsx",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/RestaurantCard/RestaurantCard.stories.tsx",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Review/Review.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/ShoppingCartMenu/ShoppingCartMenu.stories.tsx",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Sidebar/Sidebar.stories.tsx",
+        "gitStatus": "A"
+      }
+    ],
+    "ghostStories": {
+      "candidateCount": 20,
+      "total": 20,
+      "passed": 15,
+      "successRate": 0.75
+    }
+  },
+  "score": {
+    "score": 0.82,
+    "breakdown": {
+      "build": 1,
+      "typecheck": 0.8,
+      "ghostStories": 0.75,
+      "performance": 0.71
+    }
   },
   "publish": {
-    "screenshots": []
+    "branch": "trial/2026-04-01T15-38-59-mealdrop-claude-haiku-4.5-setup-81f8d794",
+    "labels": [
+      "eval",
+      "project:mealdrop",
+      "agent:claude",
+      "model:haiku-4.5",
+      "effort:low",
+      "prompt:setup"
+    ],
+    "summaryUrl": "https://github.com/storybook-tmp/mealdrop/blob/trial/2026-04-01T15-38-59-mealdrop-claude-haiku-4.5-setup-81f8d794/eval-results/summary.json",
+    "transcriptUrl": "https://github.com/storybook-tmp/mealdrop/blob/trial/2026-04-01T15-38-59-mealdrop-claude-haiku-4.5-setup-81f8d794/eval-results/transcript.json",
+    "screenshots": [
+      {
+        "storyFilePath": "src/components/Badge/Badge.stories.ts",
+        "exportName": "Default",
+        "imagePath": "src/components/Badge/Badge.stories.Default.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Badge/Badge.stories.ts",
+        "exportName": "FastFood",
+        "imagePath": "src/components/Badge/Badge.stories.FastFood.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Badge/Badge.stories.ts",
+        "exportName": "Vegetarian",
+        "imagePath": "src/components/Badge/Badge.stories.Vegetarian.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Button/Button.stories.ts",
+        "exportName": "Clear",
+        "imagePath": "src/components/Button/Button.stories.Clear.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Button/Button.stories.ts",
+        "exportName": "Default",
+        "imagePath": "src/components/Button/Button.stories.Default.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Button/Button.stories.ts",
+        "exportName": "Disabled",
+        "imagePath": "src/components/Button/Button.stories.Disabled.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Button/Button.stories.ts",
+        "exportName": "Large",
+        "imagePath": "src/components/Button/Button.stories.Large.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Button/Button.stories.ts",
+        "exportName": "WithIcon",
+        "imagePath": "src/components/Button/Button.stories.WithIcon.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Header/Header.stories.tsx",
+        "exportName": "Default",
+        "imagePath": "src/components/Header/Header.stories.Default.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Header/Header.stories.tsx",
+        "exportName": "LogoOnly",
+        "imagePath": "src/components/Header/Header.stories.LogoOnly.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Header/Header.stories.tsx",
+        "exportName": "WithCart",
+        "imagePath": "src/components/Header/Header.stories.WithCart.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Modal/Modal.stories.tsx",
+        "exportName": "Default",
+        "imagePath": "src/components/Modal/Modal.stories.Default.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Modal/Modal.stories.tsx",
+        "exportName": "Open",
+        "imagePath": "src/components/Modal/Modal.stories.Open.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/RestaurantCard/RestaurantCard.stories.tsx",
+        "exportName": "Closed",
+        "imagePath": "src/components/RestaurantCard/RestaurantCard.stories.Closed.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/RestaurantCard/RestaurantCard.stories.tsx",
+        "exportName": "Default",
+        "imagePath": "src/components/RestaurantCard/RestaurantCard.stories.Default.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/RestaurantCard/RestaurantCard.stories.tsx",
+        "exportName": "Loading",
+        "imagePath": "src/components/RestaurantCard/RestaurantCard.stories.Loading.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/RestaurantCard/RestaurantCard.stories.tsx",
+        "exportName": "New",
+        "imagePath": "src/components/RestaurantCard/RestaurantCard.stories.New.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Review/Review.stories.ts",
+        "exportName": "Adequate",
+        "imagePath": "src/components/Review/Review.stories.Adequate.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Review/Review.stories.ts",
+        "exportName": "Excellent",
+        "imagePath": "src/components/Review/Review.stories.Excellent.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Review/Review.stories.ts",
+        "exportName": "NoReviews",
+        "imagePath": "src/components/Review/Review.stories.NoReviews.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Review/Review.stories.ts",
+        "exportName": "VeryGood",
+        "imagePath": "src/components/Review/Review.stories.VeryGood.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Review/Review.stories.ts",
+        "exportName": "VeryPoor",
+        "imagePath": "src/components/Review/Review.stories.VeryPoor.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/ShoppingCartMenu/ShoppingCartMenu.stories.tsx",
+        "exportName": "Closed",
+        "imagePath": "src/components/ShoppingCartMenu/ShoppingCartMenu.stories.Closed.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/ShoppingCartMenu/ShoppingCartMenu.stories.tsx",
+        "exportName": "Empty",
+        "imagePath": "src/components/ShoppingCartMenu/ShoppingCartMenu.stories.Empty.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/ShoppingCartMenu/ShoppingCartMenu.stories.tsx",
+        "exportName": "WithItems",
+        "imagePath": "src/components/ShoppingCartMenu/ShoppingCartMenu.stories.WithItems.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Sidebar/Sidebar.stories.tsx",
+        "exportName": "Default",
+        "imagePath": "src/components/Sidebar/Sidebar.stories.Default.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Sidebar/Sidebar.stories.tsx",
+        "exportName": "Open",
+        "imagePath": "src/components/Sidebar/Sidebar.stories.Open.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Sidebar/Sidebar.stories.tsx",
+        "exportName": "WithFooter",
+        "imagePath": "src/components/Sidebar/Sidebar.stories.WithFooter.chromium.png"
+      }
+    ]
   }
 }
