@@ -1,24 +1,19 @@
-import { StorybookConfig } from '@storybook/react-vite'
+import type { StorybookConfig } from '@storybook/react-vite';
 
 const config: StorybookConfig = {
   stories: [
-    '../src/docs/Introduction.mdx',
-    '../src/docs/*.mdx',
     '../src/**/*.mdx',
-    '../src/**/*.stories.@(js|jsx|ts|tsx)',
+    '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)',
+    '../eval-results/*.mdx',
   ],
   addons: [
+    '@chromatic-com/storybook',
     '@storybook/addon-vitest',
     '@storybook/addon-a11y',
-    // TODO: this addon has a bad instrumentation of getConfig.asyncWrapper that should be fixed
-    'storybook-addon-test-codegen',
-    '@storybook/addon-designs',
     '@storybook/addon-docs',
+    '@storybook/addon-onboarding',
   ],
-  typescript: {
-    reactDocgen: 'react-docgen',
-  },
-  staticDirs: ['../public'],
   framework: '@storybook/react-vite',
-}
-export default config
+};
+
+export default config;
