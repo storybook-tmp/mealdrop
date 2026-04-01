@@ -1,0 +1,39 @@
+RUN  v4.0.15 /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-01T18-54-57-mealdrop-claude-haiku-4.5-setup-ed2545c8/project
+
+1:58:55 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+ ✓ |storybook (chromium)| src/components/Badge/Badge.stories.ts (2 tests) 1539ms
+   ✓ Default  939ms
+   ✓ Featured  599ms
+ ✓ |storybook (chromium)| src/components/Modal/Modal.stories.tsx (2 tests) 1877ms
+   ✓ Open  935ms
+   ✓ Closed  941ms
+ ✓ |storybook (chromium)| src/components/Spinner/Spinner.stories.ts (2 tests) 1885ms
+   ✓ Default  942ms
+   ✓ Loading  942ms
+ ✓ |storybook (chromium)| src/components/Header/Header.stories.tsx (2 tests) 1831ms
+   ✓ Default  890ms
+   ✓ Sticky  939ms
+ ✓ |storybook (chromium)| src/components/TopBanner/TopBanner.stories.ts (3 tests) 2391ms
+   ✓ With Title  940ms
+   ✓ With Photo  943ms
+   ✓ Empty  507ms
+ ✓ |storybook (chromium)| src/components/forms/Input.stories.ts (3 tests) 2402ms
+   ✓ Default  951ms
+   ✓ With Error  599ms
+   ✓ No Label  850ms
+ ✓ |storybook (chromium)| src/components/RestaurantCard/RestaurantCard.stories.tsx (4 tests) 2901ms
+   ✓ Default  936ms
+   ✓ New Restaurant  942ms
+   ✓ Closed  572ms
+   ✓ Loading  449ms
+ ✓ |storybook (chromium)| src/components/Button/Button.stories.ts (5 tests) 3512ms
+   ✓ Primary  947ms
+   ✓ Secondary  940ms
+   ✓ With Icon  509ms
+   ✓ Disabled  514ms
+   ✓ Large  600ms
+
+ Test Files  8 passed (8)
+      Tests  23 passed (23)
+   Start at  01:58:55
+   Duration  5.91s (transform 0ms, setup 7.40s, import 597ms, tests 18.34s, environment 0ms)

@@ -1,0 +1,5 @@
+.storybook/preview.ts(18,11): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '{ store: EnhancedStore<{ cart: CartState; order: OrderState; }, UnknownAction, Tuple<[StoreEnhancer<{ dispatch: ThunkDispatch<{ cart: CartState; order: OrderState; }, undefined, UnknownAction>; }>, StoreEnhancer]>>; }' is not assignable to parameter of type 'Attributes & ProviderProps<Action<string>, unknown>'.
+      Property 'children' is missing in type '{ store: EnhancedStore<{ cart: CartState; order: OrderState; }, UnknownAction, Tuple<[StoreEnhancer<{ dispatch: ThunkDispatch<{ cart: CartState; order: OrderState; }, undefined, UnknownAction>; }>, StoreEnhancer]>>; }' but required in type 'ProviderProps<Action<string>, unknown>'.
+
