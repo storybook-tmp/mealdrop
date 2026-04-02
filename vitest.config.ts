@@ -1,25 +1,25 @@
-import { mergeConfig, defineConfig, coverageConfigDefaults } from 'vitest/config';
-import viteConfig from './vite.config';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
-import { storybookTest } from '@storybook/addon-vitest/vitest-plugin';
-import { playwright } from '@vitest/browser-playwright';
+import { mergeConfig, defineConfig, coverageConfigDefaults } from 'vitest/config'
+import viteConfig from './vite.config'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
+import { storybookTest } from '@storybook/addon-vitest/vitest-plugin'
+import { playwright } from '@vitest/browser-playwright'
 
 const dirname =
-  typeof __dirname !== 'undefined' ? __dirname : path.dirname(fileURLToPath(import.meta.url));
+  typeof __dirname !== 'undefined' ? __dirname : path.dirname(fileURLToPath(import.meta.url))
 const playwrightProviderOptions =
   process.env.STORYBOOK_TEST_SCREENSHOTS === 'true'
     ? {
         contextOptions: {
           deviceScaleFactor: 2,
-          viewport: { width: 390, height: 844 },
+          viewport: { width: 393, height: 852 },
           isMobile: true,
           hasTouch: true,
           userAgent:
-            'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1',
+            'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1',
         },
       }
-    : {};
+    : {}
 
 // More info at: https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon
 export default mergeConfig(
@@ -77,4 +77,4 @@ export default mergeConfig(
       ],
     },
   })
-);
+)
