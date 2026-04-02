@@ -1,0 +1,60 @@
+.storybook/preview.tsx(38,16): error TS2322: Type 'Element' is not assignable to type 'never'.
+.storybook/preview.tsx(44,3): error TS2322: Type '{ controls: { matchers: { color: RegExp; date: RegExp; }; }; a11y: { test: string; }; }' is not assignable to type 'undefined'.
+src/components/Badge/Badge.stories.ts(8,3): error TS2322: Type '{ text: string; }' is not assignable to type 'undefined'.
+src/components/Badge/Badge.stories.ts(16,3): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(story: (() => Element) | (BaseAnnotations<never, never> & { name?: string | undefined; storyName?: string | undefined; play?: PlayFunction<never, never> | undefined; globals?: undefined; story?: Omit<...> | undefined; } & { ...; } & { ...; })): ReactStory<...>', gave the following error.
+    Type '{ text: string; }' is not assignable to type 'never'.
+  Overload 2 of 3, '(story: { decorators?: DecoratorFunction<never, never> | DecoratorFunction<never, never>[] | undefined; parameters?: undefined; args: never; argTypes?: undefined; ... 10 more ...; story?: Omit<...> | undefined; }): ReactStory<...>', gave the following error.
+    Type '{ text: string; }' is not assignable to type 'never'.
+src/components/FooterCard/FooterCard.stories.tsx(8,3): error TS2322: Type '{ title: string; links: ({ name: string; href: string; } | { name: string; href: string; external: true; })[]; }' is not assignable to type 'undefined'.
+src/components/FooterCard/FooterCard.stories.tsx(21,3): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(story: (() => Element) | (BaseAnnotations<never, never> & { name?: string | undefined; storyName?: string | undefined; play?: PlayFunction<never, never> | undefined; globals?: undefined; story?: Omit<...> | undefined; } & { ...; } & { ...; })): ReactStory<...>', gave the following error.
+    Type '{ title: string; links: never[]; children: string; }' is not assignable to type 'never'.
+  Overload 2 of 3, '(story: { decorators?: DecoratorFunction<never, never> | DecoratorFunction<never, never>[] | undefined; parameters?: undefined; args: never; argTypes?: undefined; ... 10 more ...; story?: Omit<...> | undefined; }): ReactStory<...>', gave the following error.
+    Type '{ title: string; links: never[]; children: string; }' is not assignable to type 'never'.
+src/components/forms/Input.stories.ts(8,3): error TS2322: Type '{ id: string; label: string; name: string; placeholder: string; value: string; onChange: () => void; }' is not assignable to type 'undefined'.
+src/components/forms/Input.stories.ts(21,3): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(story: (() => Element) | (BaseAnnotations<never, never> & { name?: string | undefined; storyName?: string | undefined; play?: PlayFunction<never, never> | undefined; globals?: undefined; story?: Omit<...> | undefined; } & { ...; } & { ...; })): ReactStory<...>', gave the following error.
+    Type '{ value: string; error: string; }' is not assignable to type 'never'.
+  Overload 2 of 3, '(story: { decorators?: DecoratorFunction<never, never> | DecoratorFunction<never, never>[] | undefined; parameters?: undefined; args: never; argTypes?: undefined; ... 10 more ...; story?: Omit<...> | undefined; }): ReactStory<...>', gave the following error.
+    Type '{ value: string; error: string; }' is not assignable to type 'never'.
+src/components/Header/Header.stories.ts(13,3): error TS2322: Type '{ sticky: true; cartItems: ({ id: number; name: string; description: string; price: number; quantity: number; } | { id: number; name: string; price: number; quantity: number; description?: undefined; })[]; totalPrice: number; toggleCartVisibility: () => void; goToCheckout: () => void; saveItem: () => void; }' is not assignable to type 'undefined'.
+src/components/Header/Header.stories.ts(26,3): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(story: (() => Element) | (BaseAnnotations<never, never> & { name?: string | undefined; storyName?: string | undefined; play?: PlayFunction<never, never> | undefined; globals?: undefined; story?: Omit<...> | undefined; } & { ...; } & { ...; })): ReactStory<...>', gave the following error.
+    Type '{ isCartVisible: true; }' is not assignable to type 'never'.
+  Overload 2 of 3, '(story: { decorators?: DecoratorFunction<never, never> | DecoratorFunction<never, never>[] | undefined; parameters?: undefined; args: never; argTypes?: undefined; ... 10 more ...; story?: Omit<...> | undefined; }): ReactStory<...>', gave the following error.
+    Type '{ isCartVisible: true; }' is not assignable to type 'never'.
+src/components/Logo/Logo.stories.ts(13,3): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(story: (() => Element) | (BaseAnnotations<never, never> & { name?: string | undefined; storyName?: string | undefined; play?: PlayFunction<never, never> | undefined; globals?: undefined; story?: Omit<...> | undefined; } & { ...; } & { ...; })): ReactStory<...>', gave the following error.
+    Type '{ large: true; animated: true; }' is not assignable to type 'never'.
+  Overload 2 of 3, '(story: { decorators?: DecoratorFunction<never, never> | DecoratorFunction<never, never>[] | undefined; parameters?: undefined; args: never; argTypes?: undefined; ... 10 more ...; story?: Omit<...> | undefined; }): ReactStory<...>', gave the following error.
+    Type '{ large: true; animated: true; }' is not assignable to type 'never'.
+src/components/Modal/Modal.stories.tsx(8,3): error TS2322: Type '{ isOpen: true; onClose: () => void; children: JSX.Element; }' is not assignable to type 'undefined'.
+src/components/Modal/Modal.stories.tsx(23,3): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(story: (() => Element) | (BaseAnnotations<never, never> & { name?: string | undefined; storyName?: string | undefined; play?: PlayFunction<never, never> | undefined; globals?: undefined; story?: Omit<...> | undefined; } & { ...; } & { ...; })): ReactStory<...>', gave the following error.
+    Type '{ isOpen: false; }' is not assignable to type 'never'.
+  Overload 2 of 3, '(story: { decorators?: DecoratorFunction<never, never> | DecoratorFunction<never, never>[] | undefined; parameters?: undefined; args: never; argTypes?: undefined; ... 10 more ...; story?: Omit<...> | undefined; }): ReactStory<...>', gave the following error.
+    Type '{ isOpen: false; }' is not assignable to type 'never'.
+src/components/RestaurantCard/RestaurantCard.stories.ts(12,3): error TS2322: Type '{ name: string; specialty: string; rating: number | undefined; photoUrl: string; categories: string[] | undefined; isNew: true; }' is not assignable to type 'undefined'.
+src/components/RestaurantCard/RestaurantCard.stories.ts(25,3): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(story: (() => Element) | (BaseAnnotations<never, never> & { name?: string | undefined; storyName?: string | undefined; play?: PlayFunction<never, never> | undefined; globals?: undefined; story?: Omit<...> | undefined; } & { ...; } & { ...; })): ReactStory<...>', gave the following error.
+    Type '{ name: string; specialty: string; rating: number | undefined; photoUrl: string; categories: string[] | undefined; isClosed: true; }' is not assignable to type 'never'.
+  Overload 2 of 3, '(story: { decorators?: DecoratorFunction<never, never> | DecoratorFunction<never, never>[] | undefined; parameters?: undefined; args: never; argTypes?: undefined; ... 10 more ...; story?: Omit<...> | undefined; }): ReactStory<...>', gave the following error.
+    Type '{ name: string; specialty: string; rating: number | undefined; photoUrl: string; categories: string[] | undefined; isClosed: true; }' is not assignable to type 'never'.
+src/components/Review/Review.stories.ts(11,3): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(story: (() => Element) | (BaseAnnotations<never, never> & { name?: string | undefined; storyName?: string | undefined; play?: PlayFunction<never, never> | undefined; globals?: undefined; story?: Omit<...> | undefined; } & { ...; } & { ...; })): ReactStory<...>', gave the following error.
+    Type '{ rating: undefined; }' is not assignable to type 'never'.
+  Overload 2 of 3, '(story: { decorators?: DecoratorFunction<never, never> | DecoratorFunction<never, never>[] | undefined; parameters?: undefined; args: never; argTypes?: undefined; ... 10 more ...; story?: Omit<...> | undefined; }): ReactStory<...>', gave the following error.
+    Type '{ rating: undefined; }' is not assignable to type 'never'.
+src/components/Review/Review.stories.ts(17,3): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(story: (() => Element) | (BaseAnnotations<never, never> & { name?: string | undefined; storyName?: string | undefined; play?: PlayFunction<never, never> | undefined; globals?: undefined; story?: Omit<...> | undefined; } & { ...; } & { ...; })): ReactStory<...>', gave the following error.
+    Type '{ rating: number; }' is not assignable to type 'never'.
+  Overload 2 of 3, '(story: { decorators?: DecoratorFunction<never, never> | DecoratorFunction<never, never>[] | undefined; parameters?: undefined; args: never; argTypes?: undefined; ... 10 more ...; story?: Omit<...> | undefined; }): ReactStory<...>', gave the following error.
+    Type '{ rating: number; }' is not assignable to type 'never'.
+src/pages/RestaurantDetailPage/components/FoodItemModal/FoodItemModal.stories.ts(18,3): error TS2322: Type '{ item: { id: number; name: string; description: string; price: number; quantity: number; }; cartItems: never[]; onClose: () => void; onItemSave: () => void; onItemRemove: () => void; }' is not assignable to type 'undefined'.
+src/pages/RestaurantDetailPage/components/FoodItemModal/FoodItemModal.stories.ts(30,3): error TS2769: No overload matches this call.
+  Overload 1 of 3, '(story: (() => Element) | (BaseAnnotations<never, never> & { name?: string | undefined; storyName?: string | undefined; play?: PlayFunction<never, never> | undefined; globals?: undefined; story?: Omit<...> | undefined; } & { ...; } & { ...; })): ReactStory<...>', gave the following error.
+    Type '{ cartItems: ({ id: number; name: string; description: string; price: number; quantity: number; } | { id: number; name: string; price: number; quantity: number; description?: undefined; })[]; }' is not assignable to type 'never'.
+  Overload 2 of 3, '(story: { decorators?: DecoratorFunction<never, never> | DecoratorFunction<never, never>[] | undefined; parameters?: undefined; args: never; argTypes?: undefined; ... 10 more ...; story?: Omit<...> | undefined; }): ReactStory<...>', gave the following error.
+    Type '{ cartItems: ({ id: number; name: string; description: string; price: number; quantity: number; } | { id: number; name: string; price: number; quantity: number; description?: undefined; })[]; }' is not assignable to type 'never'.
+
