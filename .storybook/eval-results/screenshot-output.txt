@@ -1,0 +1,35 @@
+RUN  v4.0.15 /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-02T15-25-14Z-97807010/project
+
+10:32:36 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+Port 63315 is in use, trying another one...
+Port 63316 is in use, trying another one...
+Port 63317 is in use, trying another one...
+ ✓ |storybook (chromium)| src/components/Modal/Modal.stories.tsx (2 tests) 1451ms
+   ✓ Closed  978ms
+   ✓ Open  472ms
+ ✓ |storybook (chromium)| src/components/Badge/Badge.stories.ts (2 tests) 1489ms
+   ✓ Default  977ms
+   ✓ Long  509ms
+ ✓ |storybook (chromium)| src/components/ErrorBlock/ErrorBlock.stories.tsx (2 tests) 1489ms
+   ✓ Default  978ms
+   ✓ Page Not Found  509ms
+ ✓ |storybook (chromium)| src/components/Category/Category.stories.ts (2 tests) 1489ms
+   ✓ Squared  980ms
+   ✓ Rounded  508ms
+ ✓ |storybook (chromium)| src/components/Header/Header.stories.tsx (3 tests) 1593ms
+   ✓ Default  888ms
+   ✓ Logo Only  436ms
+ ✓ |storybook (chromium)| src/components/Sidebar/Sidebar.stories.tsx (3 tests) 1815ms
+   ✓ Closed  1016ms
+   ✓ Open  551ms
+ ✓ |storybook (chromium)| src/components/forms/Input.stories.tsx (3 tests) 1840ms
+   ✓ Default  931ms
+   ✓ With Error  646ms
+ ✓ |storybook (chromium)| src/components/Button/Button.stories.ts (5 tests) 2095ms
+   ✓ Default  1016ms
+   ✓ Disabled  537ms
+
+ Test Files  8 passed (8)
+      Tests  22 passed (22)
+   Start at  22:32:36
+   Duration  7.34s (transform 0ms, setup 14.40s, import 1.16s, tests 13.26s, environment 0ms)
