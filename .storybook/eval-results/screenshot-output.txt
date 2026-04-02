@@ -1,0 +1,30 @@
+RUN  v4.0.15 /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-02T15-53-14Z-8d40178a/project
+
+10:57:50 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+ ✓ |storybook (chromium)| src/components/Button/Button.stories.ts (2 tests) 1075ms
+   ✓ Default  838ms
+ ✓ |storybook (chromium)| src/components/forms/Select.stories.ts (2 tests) 1095ms
+   ✓ Default  824ms
+ ✓ |storybook (chromium)| src/components/Spinner/Spinner.stories.ts (2 tests) 1224ms
+   ✓ Default  830ms
+   ✓ Loading  393ms
+ ✓ |storybook (chromium)| src/components/Modal/Modal.stories.tsx (2 tests) 1186ms
+   ✓ Closed  825ms
+   ✓ Open  360ms
+ ✓ |storybook (chromium)| src/components/Badge/Badge.stories.ts (2 tests) 1203ms
+   ✓ Default  842ms
+   ✓ Popular  360ms
+ ✓ |storybook (chromium)| src/components/forms/Input.stories.ts (2 tests) 1219ms
+   ✓ Default  825ms
+   ✓ With Error  393ms
+ ✓ |storybook (chromium)| src/components/Footer/Footer.stories.ts (2 tests) 1248ms
+   ✓ Default  839ms
+   ✓ Rendered  408ms
+ ✓ |storybook (chromium)| src/components/Sidebar/Sidebar.stories.tsx (2 tests) 1300ms
+   ✓ Closed  827ms
+   ✓ Open  471ms
+
+ Test Files  8 passed (8)
+      Tests  16 passed (16)
+   Start at  22:57:49
+   Duration  5.27s (transform 0ms, setup 11.18s, import 1.41s, tests 9.55s, environment 0ms)
