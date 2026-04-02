@@ -1,0 +1,32 @@
+[1m[46m RUN [49m[22m [36mv4.0.15 [39m[90m/Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-02T15-09-20Z-5e698ed7/project[39m
+
+[2m10:14:00 PM[22m [36m[1m[vite][22m[39m (client) Re-optimizing dependencies because vite config has changed
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/components/Modal/Modal.stories.tsx [2m([22m[2m2 tests[22m[2m)[22m[33m 950[2mms[22m[39m
+   [33m[2m✓[22m[39m Open [33m 594[2mms[22m[39m
+   [33m[2m✓[22m[39m Closed [33m 355[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/components/Spinner/Spinner.stories.ts [2m([22m[2m2 tests[22m[2m)[22m[33m 1146[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 635[2mms[22m[39m
+   [33m[2m✓[22m[39m On Light Background [33m 509[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/components/Badge/Badge.stories.ts [2m([22m[2m2 tests[22m[2m)[22m[33m 1111[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 757[2mms[22m[39m
+   [33m[2m✓[22m[39m Long Text [33m 353[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/components/Footer/Footer.stories.ts [2m([22m[2m2 tests[22m[2m)[22m[33m 1148[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 842[2mms[22m[39m
+   [33m[2m✓[22m[39m On Dark Background [33m 305[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/components/Sidebar/Sidebar.stories.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 1339[2mms[22m[39m
+   [33m[2m✓[22m[39m Open [33m 750[2mms[22m[39m
+   [33m[2m✓[22m[39m Open With Footer [33m 353[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/components/forms/Input.stories.ts [2m([22m[2m3 tests[22m[2m)[22m[33m 1373[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 783[2mms[22m[39m
+   [33m[2m✓[22m[39m With Error [33m 353[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/components/Header/Header.stories.ts [2m([22m[2m3 tests[22m[2m)[22m[33m 1225[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 695[2mms[22m[39m
+   [33m[2m✓[22m[39m With Cart Items [33m 344[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/components/Button/Button.stories.ts [2m([22m[2m5 tests[22m[2m)[22m[33m 1621[2mms[22m[39m
+   [33m[2m✓[22m[39m Primary [33m 755[2mms[22m[39m
+   [33m[2m✓[22m[39m Clear [33m 352[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m8 passed[39m[22m[90m (8)[39m
+[2m      Tests [22m [1m[32m22 passed[39m[22m[90m (22)[39m
+[2m   Start at [22m 22:14:00
+[2m   Duration [22m 5.15s[2m (transform 0ms, setup 10.80s, import 1.03s, tests 9.91s, environment 0ms)[22m
