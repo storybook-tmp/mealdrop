@@ -1,0 +1,10 @@
+.storybook/preview.ts(16,9): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '{ store: EnhancedStore<{ cart: CartState; order: OrderState; }, UnknownAction, Tuple<[StoreEnhancer<{ dispatch: ThunkDispatch<{ cart: CartState; order: OrderState; }, undefined, UnknownAction>; }>, StoreEnhancer]>>; }' is not assignable to parameter of type 'Attributes & ProviderProps<Action<string>, unknown>'.
+      Property 'children' is missing in type '{ store: EnhancedStore<{ cart: CartState; order: OrderState; }, UnknownAction, Tuple<[StoreEnhancer<{ dispatch: ThunkDispatch<{ cart: CartState; order: OrderState; }, undefined, UnknownAction>; }>, StoreEnhancer]>>; }' but required in type 'ProviderProps<Action<string>, unknown>'.
+src/components/Sidebar/Sidebar.stories.ts(25,35): error TS2769: No overload matches this call.
+  The last overload gave the following error.
+    Argument of type '{ fontWeight: "medium"; }' is not assignable to parameter of type '(Attributes & PropsWithChildren<BodyProps>) | null | undefined'.
+      Type '{ fontWeight: "medium"; }' is not assignable to type 'Attributes & DefaultProps & HTMLAttributes<HTMLSpanElement> & { children?: ReactNode; }'.
+        Property 'children' is missing in type '{ fontWeight: "medium"; }' but required in type 'DefaultProps'.
+

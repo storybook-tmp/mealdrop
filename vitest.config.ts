@@ -25,6 +25,16 @@ const playwrightProviderOptions =
 export default mergeConfig(
   viteConfig,
   defineConfig({
+    optimizeDeps: {
+      include: [
+        '@reduxjs/toolkit',
+        'react-loading-skeleton',
+        'react-redux',
+        'react-transition-group',
+        'react-router-dom',
+        'styled-components',
+      ],
+    },
     test: {
       coverage: {
         exclude: [

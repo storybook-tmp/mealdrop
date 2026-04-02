@@ -1,23 +1,248 @@
 {
-  "empty": true,
+  "schemaVersion": 2,
   "project": {
-    "name": "mealdrop"
+    "name": "mealdrop",
+    "repo": "https://github.com/storybook-tmp/mealdrop",
+    "branch": "main",
+    "githubSlug": "storybook-tmp/mealdrop",
+    "description": "Styled components, Redux, React Router"
   },
-  "prompt": "",
   "variant": {
-    "agent": "",
-    "model": "",
-    "effort": ""
+    "agent": "codex",
+    "model": "gpt-5.4",
+    "effort": "medium"
   },
-  "score": {
-    "score": 0
+  "timestamp": "2026-04-02T04:12:05.161Z",
+  "prompt": "setup",
+  "baselineCommit": "5f655cecc8db49d6f16f2717d1dbc55a60fd6b93",
+  "execution": {
+    "cost": 1.9305605000000003,
+    "duration": 451.806,
+    "turns": 1
   },
   "grade": {
-    "buildSuccess": false,
-    "typeCheckErrors": 0,
-    "fileChanges": []
+    "buildSuccess": true,
+    "typeCheckErrors": 2,
+    "typeCheckOutput": ".storybook/preview.ts(16,9): error TS2769: No overload matches this call.\n  The last overload gave the following error.\n    Argument of type '{ store: EnhancedStore<{ cart: CartState; order: OrderState; }, UnknownAction, Tuple<[StoreEnhancer<{ dispatch: ThunkDispatch<{ cart: CartState; order: OrderState; }, undefined, UnknownAction>; }>, StoreEnhancer]>>; }' is not assignable to parameter of type 'Attributes & ProviderProps<Action<string>, unknown>'.\n      Property 'children' is missing in type '{ store: EnhancedStore<{ cart: CartState; order: OrderState; }, UnknownAction, Tuple<[StoreEnhancer<{ dispatch: ThunkDispatch<{ cart: CartState; order: OrderState; }, undefined, UnknownAction>; }>, StoreEnhancer]>>; }' but required in type 'ProviderProps<Action<string>, unknown>'.\nsrc/components/Sidebar/Sidebar.stories.ts(25,35): error TS2769: No overload matches this call.\n  The last overload gave the following error.\n    Argument of type '{ fontWeight: \"medium\"; }' is not assignable to parameter of type '(Attributes & PropsWithChildren<BodyProps>) | null | undefined'.\n      Type '{ fontWeight: \"medium\"; }' is not assignable to type 'Attributes & DefaultProps & HTMLAttributes<HTMLSpanElement> & { children?: ReactNode; }'.\n        Property 'children' is missing in type '{ fontWeight: \"medium\"; }' but required in type 'DefaultProps'.\n\n",
+    "fileChanges": [
+      {
+        "path": ".storybook/preview.ts",
+        "gitStatus": "M"
+      },
+      {
+        "path": "eval-results/environment.json",
+        "gitStatus": "A"
+      },
+      {
+        "path": "eval-results/prompt.md",
+        "gitStatus": "A"
+      },
+      {
+        "path": "eval-results/transcript.json",
+        "gitStatus": "M"
+      },
+      {
+        "path": "src/components/Badge/Badge.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Button/Button.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Category/Category.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Logo/Logo.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Modal/Modal.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/RestaurantCard/RestaurantCard.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Review/Review.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/ShoppingCartMenu/ShoppingCartMenu.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Sidebar/Sidebar.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "vitest.config.ts",
+        "gitStatus": "M"
+      }
+    ],
+    "storybookChanges": [
+      {
+        "path": ".storybook/preview.ts",
+        "gitStatus": "M"
+      },
+      {
+        "path": "src/components/Badge/Badge.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Button/Button.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Category/Category.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Logo/Logo.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Modal/Modal.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/RestaurantCard/RestaurantCard.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Review/Review.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/ShoppingCartMenu/ShoppingCartMenu.stories.ts",
+        "gitStatus": "A"
+      },
+      {
+        "path": "src/components/Sidebar/Sidebar.stories.ts",
+        "gitStatus": "A"
+      }
+    ],
+    "ghostStories": {
+      "candidateCount": 20,
+      "total": 20,
+      "passed": 0,
+      "successRate": 0
+    }
+  },
+  "score": {
+    "score": 0.51,
+    "breakdown": {
+      "build": 1,
+      "typecheck": 0.9,
+      "ghostStories": 0,
+      "performance": 0.31
+    }
   },
   "publish": {
-    "screenshots": []
+    "branch": "trial/2026-04-02T04-12-05-mealdrop-codex-gpt-5.4-setup-ac9186b8",
+    "labels": [
+      "eval",
+      "project:mealdrop",
+      "agent:codex",
+      "model:gpt-5.4",
+      "effort:medium",
+      "prompt:setup"
+    ],
+    "summaryUrl": "https://github.com/storybook-tmp/mealdrop/blob/trial/2026-04-02T04-12-05-mealdrop-codex-gpt-5.4-setup-ac9186b8/eval-results/summary.json",
+    "transcriptUrl": "https://github.com/storybook-tmp/mealdrop/blob/trial/2026-04-02T04-12-05-mealdrop-codex-gpt-5.4-setup-ac9186b8/eval-results/transcript.json",
+    "screenshots": [
+      {
+        "storyFilePath": "src/components/Badge/Badge.stories.ts",
+        "exportName": "Default",
+        "imagePath": "src/components/Badge/Badge.stories.Default.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Badge/Badge.stories.ts",
+        "exportName": "LongLabel",
+        "imagePath": "src/components/Badge/Badge.stories.LongLabel.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Button/Button.stories.ts",
+        "exportName": "ClearWithIcon",
+        "imagePath": "src/components/Button/Button.stories.ClearWithIcon.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Button/Button.stories.ts",
+        "exportName": "Default",
+        "imagePath": "src/components/Button/Button.stories.Default.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Category/Category.stories.ts",
+        "exportName": "RoundCard",
+        "imagePath": "src/components/Category/Category.stories.RoundCard.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Category/Category.stories.ts",
+        "exportName": "SquareCard",
+        "imagePath": "src/components/Category/Category.stories.SquareCard.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Logo/Logo.stories.ts",
+        "exportName": "Default",
+        "imagePath": "src/components/Logo/Logo.stories.Default.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Logo/Logo.stories.ts",
+        "exportName": "LargeAnimatedMark",
+        "imagePath": "src/components/Logo/Logo.stories.LargeAnimatedMark.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Modal/Modal.stories.ts",
+        "exportName": "Closed",
+        "imagePath": "src/components/Modal/Modal.stories.Closed.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Modal/Modal.stories.ts",
+        "exportName": "Open",
+        "imagePath": "src/components/Modal/Modal.stories.Open.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/RestaurantCard/RestaurantCard.stories.ts",
+        "exportName": "Default",
+        "imagePath": "src/components/RestaurantCard/RestaurantCard.stories.Default.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/RestaurantCard/RestaurantCard.stories.ts",
+        "exportName": "NewAndClosed",
+        "imagePath": "src/components/RestaurantCard/RestaurantCard.stories.NewAndClosed.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Review/Review.stories.ts",
+        "exportName": "HighlyRated",
+        "imagePath": "src/components/Review/Review.stories.HighlyRated.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Review/Review.stories.ts",
+        "exportName": "NoReviewsYet",
+        "imagePath": "src/components/Review/Review.stories.NoReviewsYet.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/ShoppingCartMenu/ShoppingCartMenu.stories.ts",
+        "exportName": "EmptyCart",
+        "imagePath": "src/components/ShoppingCartMenu/ShoppingCartMenu.stories.EmptyCart.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/ShoppingCartMenu/ShoppingCartMenu.stories.ts",
+        "exportName": "FilledCart",
+        "imagePath": "src/components/ShoppingCartMenu/ShoppingCartMenu.stories.FilledCart.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Sidebar/Sidebar.stories.ts",
+        "exportName": "Open",
+        "imagePath": "src/components/Sidebar/Sidebar.stories.Open.chromium.png"
+      },
+      {
+        "storyFilePath": "src/components/Sidebar/Sidebar.stories.ts",
+        "exportName": "WithoutFooter",
+        "imagePath": "src/components/Sidebar/Sidebar.stories.WithoutFooter.chromium.png"
+      }
+    ]
   }
 }
