@@ -7,6 +7,9 @@ export default defineConfig({
   build: {
     outDir: 'build',
   },
+  optimizeDeps: {
+    include: ['react-loading-skeleton', 'react-transition-group'],
+  },
   server: {
     port: 3000,
   },

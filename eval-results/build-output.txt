@@ -1,0 +1,35 @@
+
+┌  Building storybook v0.0.0-pr-34421-sha-dd058e9b
+│
+◇  Cleaning outputDir: storybook-static
+│
+◇  Loading presets
+│
+◇  Building manager..
+│
+●  Building preview..
+│  Vite vite v6.2.3 building for production...
+│  Vite transforming...
+│  Vite ✓ 29 modules transformed.
+│
+■  Vite ✗ Build failed in 562ms
+│
+■  Failed to build the preview
+│
+■  Could not resolve "../../eval-results/data.json" from
+│  ".storybook/eval-support/transcript.mdx"
+│  file: ./.storybook/eval-support/transcript.mdx
+│  at getRollupError
+│  (file://./node_modules/rollup/dist/es/shared/parseAst.js:397:41)
+│  at error
+│  (file://./node_modules/rollup/dist/es/shared/parseAst.js:393:42)
+│  at ModuleLoader.handleInvalidResolvedId
+│  (file://./node_modules/rollup/dist/es/shared/node-entry.js:21254:24)
+│  at file://./node_modules/rollup/dist/es/shared/node-entry.js:21214:26
+│
+└  Storybook exited with an error
+
+
+Browserslist: browsers data (caniuse-lite) is 14 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
