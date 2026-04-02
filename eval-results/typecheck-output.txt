@@ -1,0 +1,17 @@
+src/components/Header/Header.stories.tsx(31,9): error TS2322: Type 'string' is not assignable to type 'number'.
+src/components/Header/Header.stories.tsx(32,9): error TS2322: Type 'string' is not assignable to type 'number'.
+src/components/Header/Header.stories.tsx(56,5): error TS2322: Type '{ id: string; name: string; price: number; quantity: number; }[]' is not assignable to type 'CartItem[]'.
+  Type '{ id: string; name: string; price: number; quantity: number; }' is not assignable to type 'CartItem'.
+    Types of property 'id' are incompatible.
+      Type 'string' is not assignable to type 'number'.
+src/components/Modal/Modal.stories.tsx(30,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, { isOpen: boolean; onClose: () => void; children?: ReactNode; }, { isOpen: boolean; onClose: () => void; children?: ReactNode; }>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: { isOpen: boolean; onClose: () => void; children?: ReactNode; }; }'.
+src/components/Modal/Modal.stories.tsx(34,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, { isOpen: boolean; onClose: () => void; children?: ReactNode; }, { isOpen: boolean; onClose: () => void; children?: ReactNode; }>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: { isOpen: boolean; onClose: () => void; children?: ReactNode; }; }'.
+src/components/Sidebar/Sidebar.stories.tsx(34,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, { isOpen: boolean; title: string; onClose: () => void; footer?: ReactNode; children?: ReactNode; }, { isOpen: boolean; title: string; onClose: () => void; footer?: ReactNode; children?: ReactNode; }>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: { isOpen: boolean; title: string; onClose: () => void; footer?: ReactNode; children?: ReactNode; }; }'.
+src/components/Sidebar/Sidebar.stories.tsx(38,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, { isOpen: boolean; title: string; onClose: () => void; footer?: ReactNode; children?: ReactNode; }, { isOpen: boolean; title: string; onClose: () => void; footer?: ReactNode; children?: ReactNode; }>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: { isOpen: boolean; title: string; onClose: () => void; footer?: ReactNode; children?: ReactNode; }; }'.
+src/components/Sidebar/Sidebar.stories.tsx(42,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, { isOpen: boolean; title: string; onClose: () => void; footer?: ReactNode; children?: ReactNode; }, { isOpen: boolean; title: string; onClose: () => void; footer?: ReactNode; children?: ReactNode; }>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: { isOpen: boolean; title: string; onClose: () => void; footer?: ReactNode; children?: ReactNode; }; }'.
+

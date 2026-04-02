@@ -1,0 +1,42 @@
+RUN  v4.0.15 /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-02T12-51-20Z-f356008c/project
+
+7:57:10 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+ ✓ |storybook (chromium)| src/components/Modal/Modal.stories.tsx (2 tests) 886ms
+   ✓ Default  516ms
+   ✓ Closed  369ms
+ ✓ |storybook (chromium)| src/components/Spinner/Spinner.stories.tsx (2 tests) 1075ms
+   ✓ Default  701ms
+   ✓ In Container  373ms
+ ✓ |storybook (chromium)| src/components/Badge/Badge.stories.ts (3 tests) 1201ms
+   ✓ Default  523ms
+   ✓ Category  364ms
+   ✓ Special  312ms
+ ✓ |storybook (chromium)| src/components/Sidebar/Sidebar.stories.tsx (3 tests) 1350ms
+   ✓ Default  684ms
+   ✓ Closed  357ms
+   ✓ Without Footer  308ms
+ ✓ |storybook (chromium)| src/components/Button/Button.stories.ts (5 tests) 1617ms
+   ✓ Default  523ms
+   ✓ Disabled  365ms
+   ✓ Large  309ms
+ ✓ |storybook (chromium)| src/components/forms/Input.stories.ts (5 tests) 1697ms
+   ✓ Default  539ms
+   ✓ With Error  403ms
+   ✓ Filled  303ms
+ ✓ |storybook (chromium)| src/components/Header/Header.stories.tsx (5 tests) 1737ms
+   ✓ Default  664ms
+   ✓ With Cart Items  393ms
+ ✓ |storybook (chromium)| src/components/RestaurantCard/RestaurantCard.stories.ts (5 tests) 1849ms
+   ✓ Default  697ms
+   ✓ With New  364ms
+   ✓ Closed  303ms
+   ✓ Loading  316ms
+
+ Test Files  8 passed (8)
+      Tests  30 passed (30)
+   Start at  19:57:10
+   Duration  4.49s (transform 0ms, setup 8.60s, import 808ms, tests 11.41s, environment 0ms)
+
+
+stderr | src/components/forms/Input.stories.ts > Filled
+You provided a `value` prop to a form field without an `onChange` handler. This will render a read-only field. If the field should be mutable use `defaultValue`. Otherwise, set either `onChange` or `readOnly`.
