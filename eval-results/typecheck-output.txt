@@ -1,0 +1,10 @@
+src/components/Header/Header.stories.tsx(30,9): error TS2322: Type 'string' is not assignable to type 'number'.
+src/components/Modal/Modal.stories.tsx(32,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, { isOpen: boolean; onClose: () => void; children?: ReactNode; }, { isOpen: boolean; onClose: () => void; children?: ReactNode; }>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: { isOpen: boolean; onClose: () => void; children?: ReactNode; }; }'.
+src/components/ShoppingCartMenu/ShoppingCartMenu.stories.tsx(24,13): error TS2322: Type 'string' is not assignable to type 'number'.
+src/components/ShoppingCartMenu/ShoppingCartMenu.stories.tsx(32,13): error TS2322: Type 'string' is not assignable to type 'number'.
+src/components/ShoppingCartMenu/ShoppingCartMenu.stories.tsx(52,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, { isOpen: boolean; totalPrice: number; onClose: () => void; cartItems: CartItem[]; onGoToCheckoutClick?: (() => void) | undefined; onItemChange: (item: any) => void; }, { ...; }>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: { isOpen: boolean; totalPrice: number; onClose: () => void; cartItems: CartItem[]; onGoToCheckoutClick?: (() => void) | undefined; onItemChange: (item: any) => void; }; }'.
+src/components/Sidebar/Sidebar.stories.tsx(41,14): error TS2322: Type '{ render: () => JSX.Element; }' is not assignable to type 'StoryAnnotations<ReactRenderer, { isOpen: boolean; title: string; onClose: () => void; footer?: ReactNode; children?: ReactNode; }, { isOpen: boolean; title: string; onClose: () => void; footer?: ReactNode; children?: ReactNode; }>'.
+  Property 'args' is missing in type '{ render: () => JSX.Element; }' but required in type '{ args: { isOpen: boolean; title: string; onClose: () => void; footer?: ReactNode; children?: ReactNode; }; }'.
+
