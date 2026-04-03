@@ -1,0 +1,36 @@
+RUN  v4.0.15 /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T10-51-58Z-3197676c/project
+
+Port 63315 is in use, trying another one...
+Port 63316 is in use, trying another one...
+ ✓ |storybook (chromium)| src/components/Review/Review.stories.ts (2 tests) 996ms
+   ✓ Excellent  640ms
+   ✓ No Reviews  355ms
+ ✓ |storybook (chromium)| src/components/forms/Select.stories.ts (2 tests) 1029ms
+   ✓ Default  661ms
+   ✓ Selected Many  367ms
+ ✓ |storybook (chromium)| src/components/RestaurantCard/RestaurantCard.stories.ts (2 tests) 994ms
+   ✓ Featured  646ms
+   ✓ Closed  347ms
+ ✓ |storybook (chromium)| src/components/Badge/Badge.stories.ts (2 tests) 999ms
+   ✓ Cuisine  639ms
+   ✓ Delivery  358ms
+ ✓ |storybook (chromium)| src/components/IconButton/IconButton.stories.ts (2 tests) 1010ms
+   ✓ Default  641ms
+   ✓ Compact  368ms
+ ✓ |storybook (chromium)| src/components/Modal/Modal.stories.tsx (2 tests) 919ms
+   ✓ Open  568ms
+   ✓ Closed  351ms
+ ✓ |storybook (chromium)| src/components/forms/Input.stories.ts (2 tests) 1102ms
+   ✓ Empty  682ms
+   ✓ With Error  419ms
+ ✓ |storybook (chromium)| src/pages/RestaurantDetailPage/components/FoodItemModal/FoodItemModal.stories.tsx (2 tests) 986ms
+   ✓ New Item  610ms
+   ✓ Existing Selection  374ms
+ ✓ |storybook (chromium)| src/components/ShoppingCartMenu/ShoppingCartMenu.stories.tsx (2 tests) 924ms
+   ✓ Filled Cart  553ms
+   ✓ Empty Cart  370ms
+
+ Test Files  9 passed (9)
+      Tests  18 passed (18)
+   Start at  18:01:25
+   Duration  5.75s (transform 0ms, setup 16.69s, import 3.09s, tests 8.96s, environment 0ms)
