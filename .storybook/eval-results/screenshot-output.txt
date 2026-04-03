@@ -1,0 +1,27 @@
+RUN  v4.0.15 /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T09-50-54Z-0a05598e/project
+
+ ✓ |storybook (chromium)| src/components/RestaurantCard/RestaurantCard.stories.tsx (1 test) 770ms
+   ✓ Default  769ms
+ ✓ |storybook (chromium)| src/pages/CategoryDetailPage/CategoryDetailPage.stories.tsx (1 test) 779ms
+   ✓ Default  778ms
+ ✓ |storybook (chromium)| src/pages/CheckoutPage/CheckoutPage.stories.tsx (1 test) 826ms
+   ✓ Default  825ms
+ ✓ |storybook (chromium)| src/pages/CategoryListPage/CategoryListPage.stories.tsx (1 test) 979ms
+   ✓ Default  978ms
+ ✓ |storybook (chromium)| src/pages/SuccessPage/SuccessPage.stories.tsx (1 test) 978ms
+   ✓ Default  977ms
+ ✓ |storybook (chromium)| src/components/Header/Header.stories.tsx (1 test) 979ms
+   ✓ Default  978ms
+ ✓ |storybook (chromium)| src/pages/HomePage/HomePage.stories.tsx (1 test) 1115ms
+   ✓ Default  1114ms
+ ✓ |storybook (chromium)| src/pages/RestaurantDetailPage/RestaurantDetailPage.stories.tsx (1 test) 1242ms
+   ✓ Default  1241ms
+
+ Test Files  8 passed (8)
+      Tests  8 passed (8)
+   Start at  17:02:17
+   Duration  3.94s (transform 0ms, setup 9.04s, import 1.84s, tests 7.67s, environment 0ms)
+
+
+stderr | src/pages/HomePage/HomePage.stories.tsx > Default
+You appear to be using paritialVisibilityGutter instead of partialVisibilityGutter which will be moved to partialVisibilityGutter in the future completely
