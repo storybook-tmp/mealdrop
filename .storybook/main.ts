@@ -1,4 +1,4 @@
-import type { StorybookConfig } from '@storybook/react-vite';
+import type { StorybookConfig } from '@storybook/react-vite'
 
 const config: StorybookConfig = {
   stories: [
@@ -6,6 +6,7 @@ const config: StorybookConfig = {
     '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)',
     './eval-support/*.mdx',
   ],
+  staticDirs: ['../public'],
   addons: [
     '@chromatic-com/storybook',
     '@storybook/addon-vitest',
@@ -14,6 +15,6 @@ const config: StorybookConfig = {
     '@storybook/addon-onboarding',
   ],
   framework: '@storybook/react-vite',
-};
+}
 
-export default config;
+export default config
