@@ -4,6 +4,15 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  optimizeDeps: {
+    include: [
+      'react-loading-skeleton',
+      'react-multi-carousel',
+      'react-lottie-player',
+      'react-transition-group',
+      'use-dark-mode',
+    ],
+  },
   build: {
     outDir: 'build',
   },
