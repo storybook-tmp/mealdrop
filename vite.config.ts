@@ -7,6 +7,19 @@ export default defineConfig({
   build: {
     outDir: 'build',
   },
+  optimizeDeps: {
+    include: [
+      'axios',
+      'react-lottie-player',
+      'react-loading-skeleton',
+      'react-multi-carousel',
+      'react-redux',
+      'react-router-dom',
+      'react-transition-group',
+      'styled-components',
+      'use-dark-mode',
+    ],
+  },
   server: {
     port: 3000,
   },
