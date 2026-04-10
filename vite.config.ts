@@ -7,6 +7,14 @@ export default defineConfig({
   build: {
     outDir: 'build',
   },
+  optimizeDeps: {
+    include: [
+      'react-loading-skeleton',
+      'react-multi-carousel',
+      'react-lottie-player',
+      'react-transition-group',
+    ],
+  },
   server: {
     port: 3000,
   },
