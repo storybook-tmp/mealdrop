@@ -25,6 +25,9 @@ const playwrightProviderOptions =
 export default mergeConfig(
   viteConfig,
   defineConfig({
+    optimizeDeps: {
+      include: ['@storybook/react-dom-shim', 'react-multi-carousel', 'axios'],
+    },
     test: {
       coverage: {
         exclude: [
