@@ -17,7 +17,8 @@
     "test:ci": "vitest run",
     "test:coverage": "vitest run --coverage",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "vitest:storybook": "vitest run --project=storybook"
   },
   "lint-staged": {
     "*.{ts,tsx}": "eslint --fix",
