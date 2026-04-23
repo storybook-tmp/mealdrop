@@ -1,0 +1,255 @@
+[1m[46m RUN [49m[22m [36mv4.0.15 [39m[90m/Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-03T11-28-58Z-a2f29329/project[39m
+
+Port 63315 is in use, trying another one...
+Port 63316 is in use, trying another one...
+Port 63317 is in use, trying another one...
+[90mstdout[2m | unknown test
+[22m[39m%cDocumentation: %chttps://mswjs.io/docs font-weight:bold font-weight:normal
+[90mstdout[2m | unknown test
+[22m[39mFound an issue? https://github.com/mswjs/msw/issues
+[90mstdout[2m | unknown test
+[22m[39mWorker script URL: http://localhost:63318/mockServiceWorker.js
+[90mstdout[2m | unknown test
+[22m[39mWorker scope: http://localhost:63318/
+[90mstdout[2m | unknown test
+[22m[39mClient ID: %s (%s) b0370858-7785-4bc2-97a6-8260e510c2e9 nested
+[90mstdout[2m | unknown test
+[22m[39m%cDocumentation: %chttps://mswjs.io/docs font-weight:bold font-weight:normal
+[90mstdout[2m | unknown test
+[22m[39mFound an issue? https://github.com/mswjs/msw/issues
+[90mstdout[2m | unknown test
+[22m[39mWorker script URL: http://localhost:63318/mockServiceWorker.js
+[90mstdout[2m | unknown test
+[22m[39mWorker scope: http://localhost:63318/
+[90mstdout[2m | unknown test
+[22m[39mClient ID: %s (%s) 83e4dafe-0da4-4177-b48f-36a726b4247f nested
+[90mstdout[2m | unknown test
+[22m[39m%cDocumentation: %chttps://mswjs.io/docs font-weight:bold font-weight:normal
+[90mstdout[2m | unknown test
+[22m[39mFound an issue? https://github.com/mswjs/msw/issues
+[90mstdout[2m | unknown test
+[22m[39mWorker script URL: http://localhost:63318/mockServiceWorker.js
+[90mstdout[2m | unknown test
+[22m[39mWorker scope: http://localhost:63318/
+[90mstdout[2m | unknown test
+[22m[39mClient ID: %s (%s) cfad2605-a5b7-44c3-9afd-861bc456fdd5 nested
+[90mstdout[2m | unknown test
+[22m[39m%cDocumentation: %chttps://mswjs.io/docs font-weight:bold font-weight:normal
+[90mstdout[2m | unknown test
+[22m[39mFound an issue? https://github.com/mswjs/msw/issues
+[90mstdout[2m | unknown test
+[22m[39mWorker script URL: http://localhost:63318/mockServiceWorker.js
+[90mstdout[2m | unknown test
+[22m[39mWorker scope: http://localhost:63318/
+[90mstdout[2m | unknown test
+[22m[39mClient ID: %s (%s) af53cb9f-0940-47b4-a8e4-3537ff6271cb nested
+[90mstdout[2m | unknown test
+[22m[39m%cDocumentation: %chttps://mswjs.io/docs font-weight:bold font-weight:normal
+[90mstdout[2m | unknown test
+[22m[39mFound an issue? https://github.com/mswjs/msw/issues
+[90mstdout[2m | unknown test
+[22m[39mWorker script URL: http://localhost:63318/mockServiceWorker.js
+[90mstdout[2m | unknown test
+[22m[39mWorker scope: http://localhost:63318/
+[90mstdout[2m | unknown test
+[22m[39mClient ID: %s (%s) c2c1859d-1fa8-4911-b846-490777bae82b nested
+[90mstdout[2m | unknown test
+[22m[39m%cDocumentation: %chttps://mswjs.io/docs font-weight:bold font-weight:normal
+[90mstdout[2m | unknown test
+[22m[39mFound an issue? https://github.com/mswjs/msw/issues
+[90mstdout[2m | unknown test
+[22m[39mWorker script URL: http://localhost:63318/mockServiceWorker.js
+[90mstdout[2m | unknown test
+[22m[39mWorker scope: http://localhost:63318/
+[90mstdout[2m | unknown test
+[22m[39mClient ID: %s (%s) 2c2ffee3-33a6-4496-a57f-261542b4bade nested
+[90mstdout[2m | unknown test
+[22m[39m%cDocumentation: %chttps://mswjs.io/docs font-weight:bold font-weight:normal
+[90mstdout[2m | unknown test
+[22m[39mFound an issue? https://github.com/mswjs/msw/issues
+[90mstdout[2m | unknown test
+[22m[39mWorker script URL: http://localhost:63318/mockServiceWorker.js
+[90mstdout[2m | unknown test
+[22m[39mWorker scope: http://localhost:63318/
+[90mstdout[2m | unknown test
+[22m[39mClient ID: %s (%s) 8b0f8efc-f94a-4ac3-9196-a015e70333a9 nested
+[90mstdout[2m | unknown test
+[22m[39m%cDocumentation: %chttps://mswjs.io/docs font-weight:bold font-weight:normal
+[90mstdout[2m | unknown test
+[22m[39mFound an issue? https://github.com/mswjs/msw/issues
+[90mstdout[2m | unknown test
+[22m[39mWorker script URL: http://localhost:63318/mockServiceWorker.js
+[90mstdout[2m | unknown test
+[22m[39mWorker scope: http://localhost:63318/
+[90mstdout[2m | unknown test
+[22m[39mClient ID: %s (%s) 668bcfd8-162a-4fea-93f3-8f38f7877d0c nested
+[90mstdout[2m | unknown test
+[22m[39m%cDocumentation: %chttps://mswjs.io/docs font-weight:bold font-weight:normal
+[90mstdout[2m | unknown test
+[22m[39mFound an issue? https://github.com/mswjs/msw/issues
+[90mstdout[2m | unknown test
+[22m[39mWorker script URL: http://localhost:63318/mockServiceWorker.js
+[90mstdout[2m | unknown test
+[22m[39mWorker scope: http://localhost:63318/
+[90mstdout[2m | unknown test
+[22m[39mClient ID: %s (%s) 7478fe3b-1a57-4c69-aff1-c74ecc919ad9 nested
+[90mstdout[2m | src/pages/CategoryDetailPage/CategoryDetailPage.stories.tsx[2m > [22m[2mDefault
+[22m[39mRequest {
+  "body": "",
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+  },
+  "method": "GET",
+  "url": "https://mealdrop.netlify.app/.netlify/functions/restaurants?category=burgers",
+}
+[90mstdout[2m | src/pages/CategoryDetailPage/CategoryDetailPage.stories.tsx[2m > [22m[2mDefault
+[22m[39mHandler: HttpHandler {
+  "__kind": "RequestHandler",
+  "info": {
+    "callFrame": "    at http://localhost:63318/.storybook/msw-handlers.ts:5:8",
+    "header": "GET https://mealdrop.netlify.app/.netlify/functions/restaurants",
+    "method": "GET",
+    "path": "https://mealdrop.netlify.app/.netlify/functions/restaurants",
+  },
+  "isUsed": true,
+  "options": {},
+  "resolver": [Function anonymous],
+  "resolverIterator": undefined,
+  "resolverIteratorResult": undefined,
+}
+[90mstdout[2m | src/pages/CategoryDetailPage/CategoryDetailPage.stories.tsx[2m > [22m[2mDefault
+[22m[39mResponse {
+  "body": "[{"id":"2","name":"Kara Fin","mapsUrl":"https://goo.gl/maps/M5wMk7oKUn5BWWtp7","url":"http://www.karafirin.nl/","address":"Tijnmuiden 5F 1046 AK Amsterdam","specialty":"Sarma (wine leafs with rice)","photoUrl":"https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260","categories":["burgers","pizza"],"menu":{"food":[{"id":1,"name":"Cheeseburger","description":"Nice grilled burger with cheese","price":8.5},{"id":2,"name":"Fries","description":"Fried french fries","price":2.5}],"dessert":[{"id":3,"name":"Vanilla ice cream","description":"Ice cream","price":2}],"drinks":[{"id":4,"name":"Coca-Cola","price":1.75},{"id":5,"name":"Fanta","price":1.5},{"id":6,"name":"Sprite","price":1.5}]}},{"id":"1","name":"Burger Kingdom","mapsUrl":"https://goo.gl/maps/EnyNcNJtvC3QkFgJ6","url":"https://www.sterkstaaltje.com/","address":"Staalstraat 12 1011 JL Amsterdam","specialty":"Nicest place for burgers","photoUrl":"https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1003&q=20","rating":4.2,"categories":["burgers","comfort food"],"menu":{"food":[{"id":1,"name":"Cheeseburger","description":"Nice grilled burger with cheese","price":8.5},{"id":2,"name":"Fries","description":"Fried french fries","price":2.5}],"dessert":[{"id":3,"name":"Vanilla ice cream","description":"Ice cream","price":2}],"drinks":[{"id":4,"name":"Coca-Cola","price":1.75},{"id":5,"name":"Fanta","price":1.5},{"id":6,"name":"Sprite","price":1.5}]}}]",
+  "headers": {
+    "content-length": "1545",
+    "content-type": "application/json",
+  },
+  "status": 200,
+  "statusText": "OK",
+}
+[90mstdout[2m | src/pages/HomePage/HomePage.stories.tsx[2m > [22m[2mDefault
+[22m[39mRequest {
+  "body": "",
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+  },
+  "method": "GET",
+  "url": "https://mealdrop.netlify.app/.netlify/functions/restaurants",
+}
+[90mstdout[2m | src/pages/HomePage/HomePage.stories.tsx[2m > [22m[2mDefault
+[22m[39mHandler: HttpHandler {
+  "__kind": "RequestHandler",
+  "info": {
+    "callFrame": "    at http://localhost:63318/.storybook/msw-handlers.ts:5:8",
+    "header": "GET https://mealdrop.netlify.app/.netlify/functions/restaurants",
+    "method": "GET",
+    "path": "https://mealdrop.netlify.app/.netlify/functions/restaurants",
+  },
+  "isUsed": true,
+  "options": {},
+  "resolver": [Function anonymous],
+  "resolverIterator": undefined,
+  "resolverIteratorResult": undefined,
+}
+[90mstdout[2m | src/pages/HomePage/HomePage.stories.tsx[2m > [22m[2mDefault
+[22m[39mResponse {
+  "body": "[{"id":"1","name":"Burger Kingdom","mapsUrl":"https://goo.gl/maps/EnyNcNJtvC3QkFgJ6","url":"https://www.sterkstaaltje.com/","address":"Staalstraat 12 1011 JL Amsterdam","specialty":"Nicest place for burgers","photoUrl":"https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1003&q=20","rating":4.2,"categories":["burgers","comfort food"],"menu":{"food":[{"id":1,"name":"Cheeseburger","description":"Nice grilled burger with cheese","price":8.5},{"id":2,"name":"Fries","description":"Fried french fries","price":2.5}],"dessert":[{"id":3,"name":"Vanilla ice cream","description":"Ice cream","price":2}],"drinks":[{"id":4,"name":"Coca-Cola","price":1.75},{"id":5,"name":"Fanta","price":1.5},{"id":6,"name":"Sprite","price":1.5}]}},{"id":"2","name":"Kara Fin","mapsUrl":"https://goo.gl/maps/M5wMk7oKUn5BWWtp7","url":"http://www.karafirin.nl/","address":"Tijnmuiden 5F 1046 AK Amsterdam","specialty":"Sarma (wine leafs with rice)","photoUrl":"https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260","categories":["burgers","pizza"],"menu":{"food":[{"id":1,"name":"Cheeseburger","description":"Nice grilled burger with cheese","price":8.5},{"id":2,"name":"Fries","description":"Fried french fries","price":2.5}],"dessert":[{"id":3,"name":"Vanilla ice cream","description":"Ice cream","price":2}],"drinks":[{"id":4,"name":"Coca-Cola","price":1.75},{"id":5,"name":"Fanta","price":1.5},{"id":6,"name":"Sprite","price":1.5}]}},{"id":"3","name":"De Oliewinkel","mapsUrl":"https://goo.gl/maps/cpjHq1mNPGqWELFC9","url":"https://deoliewinkelamsterdam.nl/","address":"Brouwersgracht 119 1015 GD Amsterdam","specialty":"Olive oil","photoUrl":"https://duyt4h9nfnj50.cloudfront.net/search_home/FastFood.jpg","categories":["comfort food"],"menu":{"food":[{"id":1,"name":"Cheeseburger","description":"Nice grilled burger with cheese","price":8.5},{"id":2,"name":"Fries","description":"Fried french fries","price":2.5}],"dessert":[{"id":3,"name":"Vanilla ice cream","description":"Ice cream","price":2}],"drinks":[{"id":4,"name":"Coca-Cola","price":1.75},{"id":5,"name":"Fanta","price":1.5},{"id":6,"name":"Sprite","price":1.5}]},"isClosed":true},{"id":"4","name":"'t Kuyltje","mapsUrl":"https://goo.gl/maps/C5HXbGpa2qKuKshq7","url":"https://www.kuyltje.nl/","address":"GASTHUISMOLENSTEEG 9 1016 AM AMSTERDAM","specialty":"Pastrami sandwiches","photoUrl":"https://duyt4h9nfnj50.cloudfront.net/search_home/FastFood.jpg","categories":["comfort food"],"isNew":true,"menu":{"food":[{"id":1,"name":"Cheeseburger","description":"Nice grilled burger with cheese","price":8.5},{"id":2,"name":"Fries","description":"Fried french fries","price":2.5}],"dessert":[{"id":3,"name":"Vanilla ice cream","description":"Ice cream","price":2}],"drinks":[{"id":4,"name":"Coca-Cola","price":1.75},{"id":5,"name":"Fanta","price":1.5},{"id":6,"name":"Sprite","price":1.5}]}},{"id":"5","name":"Ciao Bella","mapsUrl":"https://g.page/ciaobellaamsterdam?share","url":"http://ciaobellaamsterdam.nl/","address":"Prinsengracht 1055/H 1017JE Amsterdam","specialty":"Takeaway lasagna","photoUrl":"https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260","categories":["pizza"],"isNew":true,"menu":{"food":[{"id":1,"name":"Cheeseburger","description":"Nice grilled burger with cheese","price":8.5},{"id":2,"name":"Fries","description":"Fried french fries","price":2.5}],"dessert":[{"id":3,"name":"Vanilla ice cream","description":"Ice cream","price":2}],"drinks":[{"id":4,"name":"Coca-Cola","price":1.75},{"id":5,"name":"Fanta","price":1.5},{"id":6,"name":"Sprite","price":1.5}]}},{"id":"6","name":"Soup Eno","mapsUrl":"https://goo.gl/maps/KRoR7xfUDKZMPLqV8","url":"https://soupenzo.nl/","address":"Nieuwe Spiegelstraat 54","specialty":"Spinach soup","photoUrl":"https://duyt4h9nfnj50.cloudfront.net/search_home/FastFood.jpg","categories":["asian"],"menu":{"food":[{"id":1,"name":"Cheeseburger","description":"Nice grilled burger with cheese","price":8.5},{"id":2,"name":"Fries","description":"Fried french fries","price":2.5}],"dessert":[{"id":3,"name":"Vanilla ice cream","description":"Ice cream","price":2}],"drinks":[{"id":4,"name":"Coca-Cola","price":1.75},{"id":5,"name":"Fanta","price":1.5},{"id":6,"name":"Sprite","price":1.5}]}},{"id":"7","name":"Warung Atika","mapsUrl":"https://goo.gl/maps/RidH93JHj9SuNrKFA","url":"https://www.warungatika.nl/","address":"Van Woustraat 232 1073 NC Amsterdam","specialty":"€6 meals","photoUrl":"https://duyt4h9nfnj50.cloudfront.net/search_home/FastFood.jpg","categories":["sushi","asian"],"menu":{"food":[{"id":1,"name":"Cheeseburger","description":"Nice grilled burger with cheese","price":8.5},{"id":2,"name":"Fries","description":"Fried french fries","price":2.5}],"dessert":[{"id":3,"name":"Vanilla ice cream","description":"Ice cream","price":2}],"drinks":[{"id":4,"name":"Coca-Cola","price":1.75},{"id":5,"name":"Fanta","price":1.5},{"id":6,"name":"Sprite","price":1.5}]}},{"id":"8","name":"Yuan's Hot Pot","mapsUrl":"https://g.page/yuanhotpot","url":"https://yuanhotpot.com/","address":"Rijnstraat 51,1078PZ Amsterdam","specialty":"cheap and fun evening meals","photoUrl":"https://duyt4h9nfnj50.cloudfront.net/search_home/FastFood.jpg","categories":["thai"],"menu":{"food":[{"id":1,"name":"Cheeseburger","description":"Nice grilled burger with cheese","price":8.5},{"id":2,"name":"Fries","description":"Fried french fries","price":2.5}],"dessert":[{"id":3,"name":"Vanilla ice cream","description":"Ice cream","price":2}],"drinks":[{"id":4,"name":"Coca-Cola","price":1.75},{"id":5,"name":"Fanta","price":1.5},{"id":6,"name":"Sprite","price":1.5}]}},{"id":"9","name":"BAK","mapsUrl":"https://g.page/BAKRESTAURANT","url":"https://bakrestaurant.nl/en/","address":"Van Diemenstraat 408, 1013 CR Amsterdam","specialty":"expensive dinners","photoUrl":"https://duyt4h9nfnj50.cloudfront.net/search_home/FastFood.jpg","categories":["indian"],"menu":{"food":[{"id":1,"name":"Cheeseburger","description":"Nice grilled burger with cheese","price":8.5},{"id":2,"name":"Fries","description":"Fried french fries","price":2.5}],"dessert":[{"id":3,"name":"Vanilla ice cream","description":"Ice cream","price":2}],"drinks":[{"id":4,"name":"Coca-Cola","price":1.75},{"id":5,"name":"Fanta","price":1.5},{"id":6,"name":"Sprite","price":1.5}]}},{"id":"10","name":"FOER","mapsUrl":"https://g.page/foer-amsterdam","url":"http://foeramsterdam.nl/","address":"Cruquiusweg 9, 1019 AT Amsterdam","specialty":"expensive dinners","photoUrl":"https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260","categories":["comfort food"],"menu":{"food":[{"id":1,"name":"Cheeseburger","description":"Nice grilled burger with cheese","price":8.5},{"id":2,"name":"Fries","description":"Fried french fries","price":2.5}],"dessert":[{"id":3,"name":"Vanilla ice cream","description":"Ice cream","price":2}],"drinks":[{"id":4,"name":"Coca-Cola","price":1.75},{"id":5,"name":"Fanta","price":1.5},{"id":6,"name":"Sprite","price":1.5}]}}]",
+  "headers": {
+    "content-length": "7138",
+    "content-type": "application/json",
+  },
+  "status": 200,
+  "statusText": "OK",
+}
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/pages/HomePage/HomePage.stories.tsx [2m([22m[2m1 test[22m[2m)[22m[33m 2597[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 2596[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/pages/CategoryDetailPage/CategoryDetailPage.stories.tsx [2m([22m[2m1 test[22m[2m)[22m[33m 3047[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 3046[2mms[22m[39m
+[90mstdout[2m | unknown test
+[22m[39m%cDocumentation: %chttps://mswjs.io/docs font-weight:bold font-weight:normal
+[90mstdout[2m | unknown test
+[22m[39mFound an issue? https://github.com/mswjs/msw/issues
+[90mstdout[2m | unknown test
+[22m[39mWorker script URL: http://localhost:63318/mockServiceWorker.js
+[90mstdout[2m | unknown test
+[22m[39mWorker scope: http://localhost:63318/
+[90mstdout[2m | unknown test
+[22m[39mClient ID: %s (%s) e52a1bf6-fc20-456c-b0da-001024c32318 nested
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/components/TopBanner/TopBanner.stories.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 9690[2mms[22m[39m
+   [33m[2m✓[22m[39m With Title [33m 4703[2mms[22m[39m
+   [33m[2m✓[22m[39m With Photo [33m 2281[2mms[22m[39m
+   [33m[2m✓[22m[39m Title Only [33m 2704[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/components/Badge/Badge.stories.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 9690[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 4724[2mms[22m[39m
+   [33m[2m✓[22m[39m Comfort Food [33m 2242[2mms[22m[39m
+   [33m[2m✓[22m[39m Pizza [33m 2722[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/components/Review/Review.stories.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 9687[2mms[22m[39m
+   [33m[2m✓[22m[39m Very Good [33m 4717[2mms[22m[39m
+   [33m[2m✓[22m[39m Excellent [33m 2247[2mms[22m[39m
+   [33m[2m✓[22m[39m No Reviews [33m 2721[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/components/Header/Header.stories.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 7649[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 2679[2mms[22m[39m
+   [33m[2m✓[22m[39m Logo Only [33m 2262[2mms[22m[39m
+   [33m[2m✓[22m[39m With Cart Items [33m 2706[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/components/Category/Category.stories.tsx [2m([22m[2m3 tests[22m[2m)[22m[33m 9733[2mms[22m[39m
+   [33m[2m✓[22m[39m Squared [33m 4761[2mms[22m[39m
+   [33m[2m✓[22m[39m Rounded [33m 2223[2mms[22m[39m
+   [33m[2m✓[22m[39m Sushi [33m 2748[2mms[22m[39m
+[90mstdout[2m | src/pages/RestaurantDetailPage/RestaurantDetailPage.stories.tsx[2m > [22m[2mDefault
+[22m[39mRequest {
+  "body": "",
+  "headers": {
+    "accept": "application/json, text/plain, */*",
+  },
+  "method": "GET",
+  "url": "https://mealdrop.netlify.app/.netlify/functions/restaurants?id=1",
+}
+[90mstdout[2m | src/pages/RestaurantDetailPage/RestaurantDetailPage.stories.tsx[2m > [22m[2mDefault
+[22m[39mHandler: HttpHandler {
+  "__kind": "RequestHandler",
+  "info": {
+    "callFrame": "    at http://localhost:63318/.storybook/msw-handlers.ts:5:8",
+    "header": "GET https://mealdrop.netlify.app/.netlify/functions/restaurants",
+    "method": "GET",
+    "path": "https://mealdrop.netlify.app/.netlify/functions/restaurants",
+  },
+  "isUsed": true,
+  "options": {},
+  "resolver": [Function anonymous],
+  "resolverIterator": undefined,
+  "resolverIteratorResult": undefined,
+}
+[90mstdout[2m | src/pages/RestaurantDetailPage/RestaurantDetailPage.stories.tsx[2m > [22m[2mDefault
+[22m[39mResponse {
+  "body": "{"id":"1","name":"Burger Kingdom","mapsUrl":"https://goo.gl/maps/EnyNcNJtvC3QkFgJ6","url":"https://www.sterkstaaltje.com/","address":"Staalstraat 12 1011 JL Amsterdam","specialty":"Nicest place for burgers","photoUrl":"https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1003&q=20","rating":4.2,"categories":["burgers","comfort food"],"menu":{"food":[{"id":1,"name":"Cheeseburger","description":"Nice grilled burger with cheese","price":8.5},{"id":2,"name":"Fries","description":"Fried french fries","price":2.5}],"dessert":[{"id":3,"name":"Vanilla ice cream","description":"Ice cream","price":2}],"drinks":[{"id":4,"name":"Coca-Cola","price":1.75},{"id":5,"name":"Fanta","price":1.5},{"id":6,"name":"Sprite","price":1.5}]}}",
+  "headers": {
+    "content-length": "797",
+    "content-type": "application/json",
+  },
+  "status": 200,
+  "statusText": "OK",
+}
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/components/RestaurantCard/RestaurantCard.stories.tsx [2m([22m[2m4 tests[22m[2m)[22m[33m 10849[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 4723[2mms[22m[39m
+   [33m[2m✓[22m[39m New [33m 2244[2mms[22m[39m
+   [33m[2m✓[22m[39m Closed [33m 1929[2mms[22m[39m
+   [33m[2m✓[22m[39m Loading [33m 1952[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/pages/RestaurantDetailPage/RestaurantDetailPage.stories.tsx [2m([22m[2m1 test[22m[2m)[22m[33m 1155[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 1155[2mms[22m[39m
+ [32m✓[39m [30m[45m storybook (chromium) [49m[39m src/components/Button/Button.stories.tsx [2m([22m[2m7 tests[22m[2m)[22m[33m 11911[2mms[22m[39m
+   [33m[2m✓[22m[39m Default [33m 4701[2mms[22m[39m
+   [33m[2m✓[22m[39m Clear [33m 2263[2mms[22m[39m
+   [33m[2m✓[22m[39m Large [33m 1826[2mms[22m[39m
+   [33m[2m✓[22m[39m With Icon [33m 1734[2mms[22m[39m
+   [33m[2m✓[22m[39m Disabled [33m 671[2mms[22m[39m
+   [33m[2m✓[22m[39m Round [33m 354[2mms[22m[39m
+   [33m[2m✓[22m[39m Icon Only [33m 360[2mms[22m[39m
+
+[2m Test Files [22m [1m[32m10 passed[39m[22m[90m (10)[39m
+[2m      Tests [22m [1m[32m29 passed[39m[22m[90m (29)[39m
+[2m   Start at [22m 18:49:35
+[2m   Duration [22m 50.19s[2m (transform 0ms, setup 158.77s, import 25.86s, tests 76.01s, environment 0ms)[22m
+
+
+[90mstderr[2m | src/pages/HomePage/HomePage.stories.tsx[2m > [22m[2mDefault
+[22m[39mYou appear to be using paritialVisibilityGutter instead of partialVisibilityGutter which will be moved to partialVisibilityGutter in the future completely
