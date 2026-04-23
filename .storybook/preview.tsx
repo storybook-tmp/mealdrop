@@ -1,6 +1,21 @@
-import type { Preview } from '@storybook/react-vite';
+import type { Preview } from '@storybook/react-vite'
+import { ThemeProvider } from 'styled-components'
+import { MemoryRouter } from 'react-router-dom'
+
+import { lightTheme } from '../src/styles/theme'
+import { GlobalStyle } from '../src/styles/GlobalStyle'
 
 const preview: Preview = {
+  decorators: [
+    (Story) => (
+      <MemoryRouter>
+        <ThemeProvider theme={lightTheme}>
+          <GlobalStyle />
+          <Story />
+        </ThemeProvider>
+      </MemoryRouter>
+    ),
+  ],
   parameters: {
     controls: {
       matchers: {
@@ -12,6 +27,6 @@ const preview: Preview = {
       test: 'todo',
     },
   },
-};
+}
 
-export default preview;
+export default preview
