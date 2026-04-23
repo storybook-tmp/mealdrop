@@ -1,0 +1,2 @@
+8:49:01 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+JSON report written to /Users/kasperpeulen/.cursor/worktrees/storybook/storybook-eval/trials/2026-04-22T13-37-56Z-ea94b471/project/.storybook/eval-results/story-render-report.json
