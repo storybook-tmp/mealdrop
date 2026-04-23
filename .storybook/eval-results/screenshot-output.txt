@@ -1,0 +1,36 @@
+RUN  v4.0.15 /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-02T16-17-51Z-c45cfa7b/project
+
+11:21:45 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+Port 63315 is in use, trying another one...
+ ✓ |storybook (chromium)| src/components/Badge/Badge.stories.tsx (2 tests) 1271ms
+   ✓ Default  768ms
+   ✓ Long Text  502ms
+ ✓ |storybook (chromium)| src/components/Modal/Modal.stories.tsx (2 tests) 1246ms
+   ✓ Open  778ms
+   ✓ Closed  466ms
+ ✓ |storybook (chromium)| src/components/Category/Category.stories.tsx (2 tests) 1277ms
+   ✓ Squared  767ms
+   ✓ Rounded  508ms
+ ✓ |storybook (chromium)| src/components/Sidebar/Sidebar.stories.tsx (2 tests) 1260ms
+   ✓ Open  736ms
+   ✓ Without Footer  523ms
+ ✓ |storybook (chromium)| src/components/ShoppingCartMenu/ShoppingCartMenu.stories.tsx (2 tests) 1261ms
+   ✓ With Items  773ms
+   ✓ Empty Cart  487ms
+ ✓ |storybook (chromium)| src/components/Review/Review.stories.tsx (2 tests) 1351ms
+   ✓ Excellent  808ms
+   ✓ No Reviews  542ms
+ ✓ |storybook (chromium)| src/components/Spinner/Spinner.stories.tsx (2 tests) 1391ms
+   ✓ Default  848ms
+   ✓ In Container  542ms
+ ✓ |storybook (chromium)| src/components/RestaurantCard/RestaurantCard.stories.tsx (3 tests) 1492ms
+   ✓ Default  761ms
+   ✓ Closed  523ms
+ ✓ |storybook (chromium)| src/components/Button/Button.stories.tsx (4 tests) 1600ms
+   ✓ Default  771ms
+   ✓ Large  464ms
+
+ Test Files  9 passed (9)
+      Tests  21 passed (21)
+   Start at  23:21:45
+   Duration  8.62s (transform 0ms, setup 32.52s, import 1.55s, tests 12.15s, environment 0ms)
