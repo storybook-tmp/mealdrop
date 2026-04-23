@@ -1,0 +1,35 @@
+RUN  v4.0.15 /Users/kasperpeulen/code/storybook/storybook-eval/trials/20260402T104520819Z-3e447d21/project
+
+5:51:38 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+ ✓ |storybook (chromium)| src/components/Modal/Modal.stories.tsx (2 tests) 1410ms
+   ✓ Default  975ms
+   ✓ Long Content  434ms
+ ✓ |storybook (chromium)| src/components/IconButton/IconButton.stories.ts (2 tests) 1418ms
+   ✓ Default  983ms
+   ✓ Small  434ms
+ ✓ |storybook (chromium)| src/components/Badge/Badge.stories.ts (2 tests) 1432ms
+   ✓ Default  995ms
+   ✓ Long Label  436ms
+ ✓ |storybook (chromium)| src/components/Review/Review.stories.ts (2 tests) 1436ms
+   ✓ Rated  1000ms
+   ✓ No Reviews  434ms
+ ✓ |storybook (chromium)| src/components/FooterCard/FooterCard.stories.ts (2 tests) 1436ms
+   ✓ Links  999ms
+   ✓ With Custom Content  436ms
+ ✓ |storybook (chromium)| src/components/Sidebar/Sidebar.stories.tsx (2 tests) 1411ms
+   ✓ Default  1005ms
+   ✓ With Footer  405ms
+ ✓ |storybook (chromium)| src/components/ShoppingCartMenu/ShoppingCartMenu.stories.ts (2 tests) 1411ms
+   ✓ Filled Cart  1007ms
+   ✓ Empty Cart  403ms
+ ✓ |storybook (chromium)| src/components/RestaurantCard/RestaurantCard.stories.ts (2 tests) 1430ms
+   ✓ Default  1032ms
+   ✓ Closed  397ms
+ ✓ |storybook (chromium)| src/components/Category/Category.stories.ts (2 tests) 1467ms
+   ✓ Featured  1048ms
+   ✓ Round  418ms
+
+ Test Files  9 passed (9)
+      Tests  18 passed (18)
+   Start at  17:51:37
+   Duration  4.42s (transform 0ms, setup 11.18s, import 1.00s, tests 12.85s, environment 0ms)
