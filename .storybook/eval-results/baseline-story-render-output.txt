@@ -1,0 +1,1 @@
+JSON report written to /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-10T16-35-00Z-5764727c/project/.storybook/eval-results/baseline-story-render-report.json
