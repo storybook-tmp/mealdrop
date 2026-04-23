@@ -1,0 +1,40 @@
+RUN  v4.0.15 /Users/kasperpeulen/code/storybook/storybook-eval/trials/2026-04-02T16-23-14Z-114abf97/project
+
+11:27:02 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+Port 63315 is in use, trying another one...
+ ✓ |storybook (chromium)| src/components/Badge/Badge.stories.ts (2 tests) 1313ms
+   ✓ Default  869ms
+   ✓ Long Text  443ms
+ ✓ |storybook (chromium)| src/components/Modal/Modal.stories.tsx (3 tests) 1527ms
+   ✓ Open  815ms
+   ✓ Closed  340ms
+   ✓ With Form Content  371ms
+ ✓ |storybook (chromium)| src/components/Breadcrumb/Breadcrumb.stories.ts (3 tests) 1555ms
+   ✓ Default  843ms
+   ✓ With Multiple Items  343ms
+   ✓ Without Links  369ms
+ ✓ |storybook (chromium)| src/components/forms/Select.stories.ts (3 tests) 1580ms
+   ✓ Default  833ms
+   ✓ Large Options  343ms
+   ✓ Empty  404ms
+ ✓ |storybook (chromium)| src/components/Sidebar/Sidebar.stories.tsx (3 tests) 1590ms
+   ✓ Open  848ms
+   ✓ Closed  313ms
+   ✓ With Footer  427ms
+ ✓ |storybook (chromium)| src/components/Header/Header.stories.tsx (3 tests) 1593ms
+   ✓ Default  757ms
+   ✓ Sticky  473ms
+   ✓ Logo Only  362ms
+ ✓ |storybook (chromium)| src/components/forms/Input.stories.ts (4 tests) 1843ms
+   ✓ Default  887ms
+   ✓ With Error  443ms
+   ✓ Password  333ms
+ ✓ |storybook (chromium)| src/components/Button/Button.stories.ts (5 tests) 1858ms
+   ✓ Default  850ms
+   ✓ Disabled  313ms
+   ✓ Clear  363ms
+
+ Test Files  8 passed (8)
+      Tests  26 passed (26)
+   Start at  23:27:02
+   Duration  6.14s (transform 0ms, setup 13.16s, import 1.15s, tests 12.86s, environment 0ms)
