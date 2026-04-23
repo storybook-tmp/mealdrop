@@ -1,0 +1,1 @@
+Run `npx storybook ai setup` and follow its instructions precisely.
