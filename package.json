@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "imports": {
+    "#.storybook/*": "./.storybook/*"
+  },
   "scripts": {
     "build": "tsc && vite build",
     "chromatic": "chromatic --exit-zero-on-changes --only-changed",
@@ -105,6 +108,7 @@
     "jest-junit": "^16.0.0",
     "lint-staged": "^15.4.3",
     "msw": "^2.7.3",
+    "msw-storybook-addon": "^2.0.7",
     "playwright": "^1.50.1",
     "prettier": "^3.5.2",
     "react-is": "^19.0.0",
