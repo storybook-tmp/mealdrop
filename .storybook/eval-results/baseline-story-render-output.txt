@@ -1,0 +1,1 @@
+JSON report written to /Users/yannbraga/open-source/storybook-eval/trials/2026-05-05T16-17-37Z-8f2a37d3/project/.storybook/eval-results/baseline-story-render-report.json
