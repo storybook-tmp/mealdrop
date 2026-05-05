@@ -2090,6 +2090,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/mockdate@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@types/mockdate@npm:3.0.0"
+  dependencies:
+    mockdate: "npm:*"
+  checksum: 10c0/75cde9e0f63c86a1bcceb34275cefc03ee1f4b41d55f7ccd6da95ebdbf0ae327f7e78c2ab7bd1d3840c3e9bf9140be8b7690fdbea5fe7b90269b8b5a98b8aa97
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:^20.17.19":
   version: 20.17.27
   resolution: "@types/node@npm:20.17.27"
@@ -3616,6 +3625,7 @@ __metadata:
     "@testing-library/jest-dom": "npm:^6.6.3"
     "@testing-library/react": "npm:^16.2.0"
     "@testing-library/user-event": "npm:^14.6.1"
+    "@types/mockdate": "npm:^3.0.0"
     "@types/node": "npm:^20.17.19"
     "@types/react": "npm:^19.0.10"
     "@types/react-dom": "npm:^19.0.4"
@@ -3649,7 +3659,9 @@ __metadata:
     istanbul: "npm:^0.4.5"
     jest-junit: "npm:^16.0.0"
     lint-staged: "npm:^15.4.3"
+    mockdate: "npm:^3.0.5"
     msw: "npm:^2.7.3"
+    msw-storybook-addon: "npm:^2.0.7"
     playwright: "npm:^1.50.1"
     prettier: "npm:^3.5.2"
     react: "npm:^19.0.0"
@@ -5677,7 +5689,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-node-process@npm:^1.2.0":
+"is-node-process@npm:^1.0.1, is-node-process@npm:^1.2.0":
   version: 1.2.0
   resolution: "is-node-process@npm:1.2.0"
   checksum: 10c0/5b24fda6776d00e42431d7bcd86bce81cb0b6cabeb944142fe7b077a54ada2e155066ad06dbe790abdb397884bdc3151e04a9707b8cd185099efbc79780573ed
@@ -6565,6 +6577,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mockdate@npm:*, mockdate@npm:^3.0.5":
+  version: 3.0.5
+  resolution: "mockdate@npm:3.0.5"
+  checksum: 10c0/36ab00c4b94d3e3cc8b9ecec27730dcf396d47d2ba046ad96635e7f9bc4bba0fff6125dedaba7313b1cadc0cefc0eb3f3ac0d5c3655707afd3b82fa4550aae92
+  languageName: node
+  linkType: hard
+
 "moo-color@npm:^1.0.2":
   version: 1.0.3
   resolution: "moo-color@npm:1.0.3"
@@ -6585,6 +6604,17 @@ __metadata:
   version: 2.1.3
   resolution: "ms@npm:2.1.3"
   checksum: 10c0/d924b57e7312b3b63ad21fc5b3dc0af5e78d61a1fc7cfb5457edaf26326bf62be5307cc87ffb6862ef1c2b33b0233cdb5d4f01c4c958cc0d660948b65a287a48
+  languageName: node
+  linkType: hard
+
+"msw-storybook-addon@npm:^2.0.7":
+  version: 2.0.7
+  resolution: "msw-storybook-addon@npm:2.0.7"
+  dependencies:
+    is-node-process: "npm:^1.0.1"
+  peerDependencies:
+    msw: ^2.0.0
+  checksum: 10c0/0df84f0212de1d224daa422e10174c7f079fab959b4e2bb449a5bd875dc65ec78f2f211d64588af08c947142b37e478f049906eaf60d1898667e3158cc0bcec1
   languageName: node
   linkType: hard
 
