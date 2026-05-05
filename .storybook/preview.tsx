@@ -1,7 +1,40 @@
-import type { Preview } from '@storybook/react-vite';
+import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
+import { Provider as StoreProvider } from 'react-redux'
+import { ThemeProvider } from 'styled-components'
+import type { Preview } from '@storybook/react-vite'
+import { initialize, mswLoader } from 'msw-storybook-addon'
+
+import { store } from '../src/app-state'
+import { lightTheme } from '../src/styles/theme'
+import { GlobalStyle } from '../src/styles/GlobalStyle'
+import { mswHandlers } from './msw-handlers'
+
+initialize({ onUnhandledRequest: 'bypass' })
 
 const preview: Preview = {
+  decorators: [
+    (Story) => {
+      if (!document.getElementById('modal')) {
+        const el = document.createElement('div')
+        el.id = 'modal'
+        document.body.appendChild(el)
+      }
+      return (
+        <BrowserRouter>
+          <StoreProvider store={store}>
+            <ThemeProvider theme={lightTheme}>
+              <GlobalStyle />
+              <Story />
+            </ThemeProvider>
+          </StoreProvider>
+        </BrowserRouter>
+      )
+    },
+  ],
+  loaders: [mswLoader],
   parameters: {
+    msw: { handlers: mswHandlers },
     controls: {
       matchers: {
         color: /(background|color)$/i,
@@ -12,6 +45,6 @@ const preview: Preview = {
       test: 'todo',
     },
   },
-};
+}
 
-export default preview;
+export default preview
