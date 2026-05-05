@@ -1,0 +1,30 @@
+import { http, HttpResponse } from 'msw';
+
+import { restaurants, restaurantsCompleteData } from '../src/stub/restaurants';
+
+const BASE_URL = 'https://mealdrop.netlify.app/.netlify/functions/restaurants';
+
+export const mswHandlers = [
+  http.get(BASE_URL, ({ request }) => {
+    const url = new URL(request.url);
+    const id = url.searchParams.get('id');
+    const category = url.searchParams.get('category');
+
+    if (id) {
+      const restaurant = restaurantsCompleteData.find((r) => r.id === id);
+      if (!restaurant) {
+        return new HttpResponse(null, { status: 404 });
+      }
+      return HttpResponse.json(restaurant);
+    }
+
+    if (category) {
+      const filtered = restaurants.filter((r) =>
+        r.categories?.includes(category)
+      );
+      return HttpResponse.json(filtered);
+    }
+
+    return HttpResponse.json(restaurants);
+  }),
+];
