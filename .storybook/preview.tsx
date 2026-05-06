@@ -1,6 +1,25 @@
 import type { Preview } from '@storybook/react-vite';
+import { ThemeProvider } from 'styled-components';
+import { Provider as StoreProvider } from 'react-redux';
+import { MemoryRouter } from 'react-router-dom';
+
+import { store } from '../src/app-state/store';
+import { lightTheme } from '../src/styles/theme';
+import { GlobalStyle } from '../src/styles/GlobalStyle';
 
 const preview: Preview = {
+  decorators: [
+    (Story, context) => (
+      <MemoryRouter initialEntries={context.parameters.initialEntries || ['/']}>
+        <StoreProvider store={store}>
+          <ThemeProvider theme={lightTheme}>
+            <GlobalStyle />
+            <Story />
+          </ThemeProvider>
+        </StoreProvider>
+      </MemoryRouter>
+    ),
+  ],
   parameters: {
     controls: {
       matchers: {
