@@ -1,0 +1,4 @@
+│
+▲  No story files found for the specified pattern: src/**/*.mdx
+[2m10:46:07 AM[22m [36m[1m[vite][22m[39m (client) Re-optimizing dependencies because vite config has changed
+JSON report written to /home/steve/Development/storybook-eval/trials/2026-05-06T08-41-23Z-b86c6ffb/project/.storybook/eval-results/story-render-report.json
