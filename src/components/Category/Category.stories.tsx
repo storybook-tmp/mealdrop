@@ -1,0 +1,31 @@
+import type { Meta, StoryObj } from '@storybook/react-vite';
+import { expect } from 'storybook/test';
+import { Category } from './Category';
+
+const meta = {
+  component: Category,
+  tags: ['ai-generated'],
+} satisfies Meta<typeof Category>;
+
+export default meta;
+type Story = StoryObj<typeof meta>;
+
+export const Squared: Story = {
+  args: {
+    title: 'Pizza',
+    photoUrl:
+      'https://images.pexels.com/photos/2147491/pexels-photo-2147491.jpeg?auto=compress&cs=tinysrgb&w=600',
+  },
+  play: async ({ canvas }) => {
+    await expect(canvas.getByText('Pizza')).toBeVisible();
+  },
+};
+
+export const Rounded: Story = {
+  args: {
+    title: 'Sushi',
+    photoUrl:
+      'https://images.pexels.com/photos/9210/food-japanese-food-photography-sushi.jpg?auto=compress&cs=tinysrgb&w=600',
+    round: true,
+  },
+};
