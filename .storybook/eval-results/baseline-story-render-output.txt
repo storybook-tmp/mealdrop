@@ -1,0 +1,3 @@
+│
+▲  No story files found for the specified pattern: src/**/*.mdx
+JSON report written to /Users/yannbraga/open-source/storybook-eval/trials/2026-05-06T21-37-09Z-76d54c21/project/.storybook/eval-results/baseline-story-render-report.json
