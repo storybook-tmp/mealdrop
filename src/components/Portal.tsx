@@ -1,4 +1,4 @@
-import { useRef, useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import * as React from 'react'
 import { createPortal } from 'react-dom'
 
@@ -7,14 +7,11 @@ type Props = {
 }
 
 export const Portal: React.FC<React.PropsWithChildren<Props>> = ({ children, selector }) => {
-  const ref = useRef<Element | null>(null)
+  const [element, setElement] = useState<Element | null>(null)
 
   useEffect(() => {
-    const element = document.querySelector<Element>(selector)
-    if (element) {
-      ref.current = element
-    }
+    setElement(document.querySelector<Element>(selector))
   }, [selector])
 
-  return ref.current ? createPortal(children, ref.current) : null
+  return element ? createPortal(children, element) : null
 }
